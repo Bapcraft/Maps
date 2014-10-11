@@ -1,7 +1,7 @@
 <map>
     <name>Void Battles</name>
 
-    <description>Basic Team Deathmatch </description>
+    <description>Basic Team Deathmatch</description>
 
     <authors>
         <author>zoads</author>
@@ -12,36 +12,36 @@
     <friendlyfire>off</friendlyfire>
 
     <modules>
-        <module name="spawns" />
-        <module name="teams" />
-        <module name="autorespawn" />
-        <module name="gamerules" />
-        <module name="kits" />
-        <module name="pickkits" />
-        <module name="timelimit" />
-        <module name="building" />
-        <module name="removeitems" />
-        <module name="timelimit" />
-        <module name="building" />
+        <module name="spawns"/>
+        <module name="teams"/>
+        <module name="autorespawn"/>
+        <module name="gamerules"/>
+        <module name="kits"/>
+        <module name="pickkits"/>
+        <module name="timelimit"/>
+        <module name="building"/>
+        <module name="removeitems"/>
+        <module name="timelimit"/>
+        <module name="building"/>
         <module name="autojoin"/>
-        <module name="disabledamage" />
-        <module name="reports" />
-        <module name="nohunger" />
-        <module name="spectatoritems" />
-		<module name="mobspawning" />
+        <module name="disabledamage"/>
+        <module name="reports"/>
+        <module name="nohunger"/>
+        <module name="spectatoritems"/>
+        <module name="mobspawning"/>
     </modules>
-	
-	<mobspawning>
-		<disabled>
-			<CREEPER/>
-			<SKELETON/>
-			<ZOMBIE/>
-			<ENDERMAN/>
-			<PIG/>
-			<SLIME/>
-		</disabled>
-		<enabled></enabled>
-	</mobspawning>
+
+    <mobspawning>
+        <disabled>
+            <CREEPER/>
+            <SKELETON/>
+            <ZOMBIE/>
+            <ENDERMAN/>
+            <PIG/>
+            <SLIME/>
+        </disabled>
+        <enabled></enabled>
+    </mobspawning>
 
     <disabledamage>
         <type>FALL</type>
@@ -52,7 +52,7 @@
             <enabled>
             </enabled>
             <disabled>
-                <all />
+                <all/>
             </disabled>
         </break>
 
@@ -60,7 +60,7 @@
             <enabled>
             </enabled>
             <disabled>
-                <all />
+                <all/>
             </disabled>
         </place>
     </building>
@@ -75,11 +75,11 @@
         </spawn>
 
         <spawn team="red">
-            <loc x="0.5" y="21" z="-47" />
+            <loc x="0.5" y="21" z="-47"/>
         </spawn>
 
         <spectators>
-            <loc x="0.5" y="47" z="13.5" />
+            <loc x="0.5" y="47" z="13.5"/>
         </spectators>
     </spawns>
 
@@ -93,7 +93,8 @@
 
             <goals>
                 <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
-                <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false" depends="time"/>
+                <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false"
+                      depends="time"/>
             </goals>
         </team>
 
@@ -106,18 +107,19 @@
 
             <goals>
                 <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
-                <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false" depends="time"/>
+                <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false"
+                      depends="time"/>
             </goals>
         </team>
 
     </teams>
 
-    <autorespawn time="1" />
+    <autorespawn time="1"/>
 
     <gamerules>
-        <gamerule key="doDaylightCycle" value="false" />
-        <gamerule key="doMobSpawning" value="false" />
-        <gamerule key="doTileDrops" value="false" />
+        <gamerule key="doDaylightCycle" value="false"/>
+        <gamerule key="doMobSpawning" value="false"/>
+        <gamerule key="doTileDrops" value="false"/>
     </gamerules>
 
     <kits>
@@ -127,76 +129,76 @@
         </default>
 
         <kit team="red" id="Archer">
-            <item type="wood sword" enchantments="durability-3" />
+            <item type="wood sword" enchantments="durability-3"/>
             <item type="bow" enchantments="arrow infinite-1;arrow damage-1"/>
-            <item type="arrow" amount="1" />
+            <item type="arrow" amount="1"/>
 
             <armor>
-                <helmet type="leather helmet" color="ff0000" />
-                <chestplate type="iron chestplate" />
-                <leggings type="chainmail leggings" />
-                <boots type="chainmail boots" />
+                <helmet type="leather helmet" color="ff0000"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
             </armor>
             <potions>jump,600000,0,false;speed,600000,1,false;regeneration,100,5,false</potions>
         </kit>
 
         <kit team="blue" id="Archer">
-            <item type="wood sword" enchantments="durability-3" />
+            <item type="wood sword" enchantments="durability-3"/>
             <item type="bow" enchantments="arrow infinite-1;arrow damage-1"/>
-            <item type="arrow" amount="1" />
+            <item type="arrow" amount="1"/>
             <armor>
                 <helmet type="leather helmet" color="334cb2"/>
-                <chestplate type="iron chestplate" />
-                <leggings type="chainmail leggings" />
-                <boots type="chainmail boots" />
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
             </armor>
             <potions>jump,600000,0,false;speed,600000,1,false;regeneration,100,5,false</potions>
         </kit>
 
         <kit team="red" id="Knight">
-            <item type="iron sword" />
+            <item type="iron sword"/>
 
             <armor>
-                <helmet type="leather helmet" color="ff0000" />
-                <chestplate type="iron chestplate" />
-                <leggings type="leather leggings" color="ffffff" />
-                <boots type="leather boots" color="ffffff" />
+                <helmet type="leather helmet" color="ff0000"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="leather leggings" color="ffffff"/>
+                <boots type="leather boots" color="ffffff"/>
             </armor>
             <potions>regeneration,100,5,false</potions>
         </kit>
 
         <kit team="blue" id="Knight">
-            <item type="iron sword" />
+            <item type="iron sword"/>
 
             <armor>
-                <helmet type="leather helmet" color="334cb2" />
-                <chestplate type="iron chestplate" />
-                <leggings type="leather leggings" color="ffffff" />
-                <boots type="leather boots" color="ffffff" />
+                <helmet type="leather helmet" color="334cb2"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="leather leggings" color="ffffff"/>
+                <boots type="leather boots" color="ffffff"/>
             </armor>
             <potions>regeneration,100,5,false</potions>
         </kit>
 
         <kit team="red" id="Tank">
-            <item type="stone sword" />
+            <item type="stone sword"/>
 
             <armor>
-                <helmet type="chainmail helmet" />
-                <chestplate type="diamond chestplate" />
-                <leggings type="chainmail leggings" />
-                <boots type="chainmail boots" />
+                <helmet type="chainmail helmet"/>
+                <chestplate type="diamond chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
             </armor>
             <potions>regeneration,100,5,false;Slow,6000,1,false</potions>
         </kit>
 
         <kit team="blue" id="Tank">
-            <item type="stone sword" />
+            <item type="stone sword"/>
 
             <armor>
-                <helmet type="chainmail helmet" />
-                <chestplate type="diamond chestplate" />
-                <leggings type="chainmail leggings" />
-                <boots type="chainmail boots" />
+                <helmet type="chainmail helmet"/>
+                <chestplate type="diamond chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
             </armor>
             <potions>regeneration,100,5,false;Slow,6000,1,false</potions>
         </kit>
@@ -208,14 +210,14 @@
 
     <building>
         <break>
-            <none />
+            <none/>
         </break>
         <place>
-            <none />
+            <none/>
         </place>
     </building>
 
     <removeitems>
-        <all />
+        <all/>
     </removeitems>
 </map>
