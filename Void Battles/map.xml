@@ -249,7 +249,7 @@
 		
 		<kit team="red" id="Sniper">
             <item type="wood axe" enchantments="durability-3"/>
-            <item type="bow" enchantments="power-1;arrow damage-1"/>
+            <item type="bow" enchantments="arrow damage-3"/>
             <item type="arrow" amount="64"/>
 
             <armor>
@@ -263,7 +263,7 @@
 
         <kit team="blue" id="Sniper">
             <item type="wood axe" enchantments="durability-3"/>
-            <item type="bow" enchantments="power-1;arrow damage-1"/>
+            <item type="bow" enchantments="arrow damage-3"/>
             <item type="arrow" amount="64"/>
             <armor>
                 <helmet type="leather helmet" color="334cb2"/>
