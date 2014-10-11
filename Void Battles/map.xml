@@ -229,7 +229,7 @@
             <potions>speed,6000,1,false;regeneration,100,1,false</potions>
         </kit>
 		
-		<kit team="red" id="assassin">
+		<kit team="red" id="Assassin">
             <item type="stone sword" enchantments="sharpness-3" />
 
             <armor>
@@ -238,7 +238,7 @@
             <potions>speed,6000,3,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
 		
-		<kit team="blue" id="assassin">
+		<kit team="blue" id="Assassin">
             <item type="stone sword" enchantments="sharpness-3"/>
 
             <armor>
@@ -247,7 +247,7 @@
             <potions>speed,6000,3,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
 		
-		<kit team="red" id="sniper">
+		<kit team="red" id="Sniper">
             <item type="wood axe" enchantments="unbreaking-3"/>
             <item type="bow" enchantments="power-1;arrow damage-1"/>
             <item type="arrow" amount="64"/>
@@ -261,7 +261,7 @@
             <potions>jump,600000,0,false;regeneration,100,5,false</potions>
         </kit>
 
-        <kit team="blue" id="sniper">
+        <kit team="blue" id="Sniper">
             <item type="wood axe" enchantments="unberaking-3"/>
             <item type="bow" enchantments="power-1;arrow damage-1"/>
             <item type="arrow" amount="64"/>
