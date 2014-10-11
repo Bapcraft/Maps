@@ -235,4 +235,17 @@
             </chests>
         </tier>
     </chestregen>
+	
+	<shop>
+        <items>
+            <item type="stone" amount="16" price="15" customname="Stone"/>
+			<item type="wood" amount="16" price="20" customname="Wood"/>
+			<item type="bow" amount="1" price="50" customname="Bow"/>
+			<item type="arrow" amount="4" price="30" customname="Arrow"/>
+			<item type="ender pearl" amount="1" price="50" customname="Enderpearl"/>
+			<item type="snow ball" amount="4" price="15" customname="Snow Ball"/>
+			<item type="iron sword" amount="1" price="75" customname="Iron Sword"/>
+			<item type="fishing rod" amount="1" price="50" customname="Fishing Rod"/>
+        </items>
+    </shop>
 </map>
