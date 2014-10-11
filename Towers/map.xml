@@ -20,6 +20,7 @@
         <module name="stats"/>
         <module name="reports"/>
         <module name="spectatoritems"/>
+        <module name="shop"/>
     </modules>
 
     <spawns beds="on">
@@ -263,4 +264,10 @@
             </chests>
         </tier>
     </chestregen>
+
+    <shop>
+        <items>
+            <item type="stone" amount="16" price="5" customname="Test stone"/>
+        </items>
+    </shop>
 </map>
