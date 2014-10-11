@@ -18,6 +18,7 @@
         <module name="nojoinmidgame"/>
         <module name="spectatoritems"/>
         <module name="autojoin"/>
+        <module name="shop"/>
     </modules>
 
     <spawns beds="on">
