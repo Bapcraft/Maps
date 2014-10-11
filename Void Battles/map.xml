@@ -204,7 +204,7 @@
         </kit>
 		
 		<kit team="blue" id="Medic">
-            <item type="wood sword" enchantments="unbreaking-3" />
+            <item type="wood sword" enchantments="durability-3" />
 			<item type="potion" data="16453" amount="16" />
 
             <armor>
@@ -217,7 +217,7 @@
         </kit>
 		
 		<kit team="red" id="Medic">
-            <item type="wood sword" enchantments="unbreaking-3" />
+            <item type="wood sword" enchantments="durability-3" />
 			<item type="potion" data="16453" amount="16" />
 
             <armor>
@@ -230,7 +230,7 @@
         </kit>
 		
 		<kit team="red" id="Assassin">
-            <item type="stone sword" enchantments="sharpness-3" />
+            <item type="stone sword" enchantments="damage all-3" />
 
             <armor>
                 <chestplate type="leather chestplate" color="ff0000" />
@@ -239,7 +239,7 @@
         </kit>
 		
 		<kit team="blue" id="Assassin">
-            <item type="stone sword" enchantments="sharpness-3"/>
+            <item type="stone sword" enchantments="damage all-3"/>
 
             <armor>
                 <chestplate type="leather chestplate"  color="334cb2" />
@@ -248,7 +248,7 @@
         </kit>
 		
 		<kit team="red" id="Sniper">
-            <item type="wood axe" enchantments="unbreaking-3"/>
+            <item type="wood axe" enchantments="durability-3"/>
             <item type="bow" enchantments="power-1;arrow damage-1"/>
             <item type="arrow" amount="64"/>
 
@@ -262,7 +262,7 @@
         </kit>
 
         <kit team="blue" id="Sniper">
-            <item type="wood axe" enchantments="unberaking-3"/>
+            <item type="wood axe" enchantments="durability-3"/>
             <item type="bow" enchantments="power-1;arrow damage-1"/>
             <item type="arrow" amount="64"/>
             <armor>
