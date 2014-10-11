@@ -16,6 +16,7 @@
         <module name="lives" />
         <module name="chestregen" />
         <module name="nojoinmidgame" />
+        <module name="spectatoritems" />
 	<module name="autojoin" />
     </modules>
 

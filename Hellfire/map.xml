@@ -16,7 +16,8 @@
         <module name="lives" />
         <module name="chestregen" />
         <module name="nojoinmidgame" />
-	<module name="autojoin" />
+	    <module name="autojoin" />
+        <module name="spectatoritems" />
     </modules>
 
     <spawns beds="on">
