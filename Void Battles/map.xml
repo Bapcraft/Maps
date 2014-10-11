@@ -228,6 +228,51 @@
             </armor>
             <potions>speed,6000,1,false;regeneration,100,1,false</potions>
         </kit>
+		
+		<kit team="red" id="assassin">
+            <item type="stone sword" enchantments="sharpness-3" />
+
+            <armor>
+                <chestplate type="leather chestplate" color="ff0000" />
+            </armor>
+            <potions>speed,6000,3,false;regeneration,100,1,false;jump,6000,2,false</potions>
+        </kit>
+		
+		<kit team="blue" id="assassin">
+            <item type="stone sword" enchantments="sharpness-3"/>
+
+            <armor>
+                <chestplate type="leather chestplate  color="334cb2" />
+            </armor>
+            <potions>speed,6000,3,false;regeneration,100,1,false;jump,6000,2,false</potions>
+        </kit>
+		
+		<kit team="red" id="sniper">
+            <item type="wood axe" enchantments="unbreaking-3"/>
+            <item type="bow" enchantments="power-1;arrow damage-1"/>
+            <item type="arrow" amount="64"/>
+
+            <armor>
+                <helmet type="leather helmet" color="ff0000"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="blue" id="sniper">
+            <item type="wood axe" enchantments="unberaking-3"/>
+            <item type="bow" enchantments="power-1;arrow damage-1"/>
+            <item type="arrow" amount="64"/>
+            <armor>
+                <helmet type="leather helmet" color="334cb2"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;regeneration,100,5,false</potions>
+        </kit>
     </kits>
 
     <timelimit>
