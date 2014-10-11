@@ -233,7 +233,7 @@
             <item type="stone sword" enchantments="damage all-2" />
 
             <armor>
-                <chestplate type="leather chestplate" color="ff0000" />
+                <boots type="leather boots" color="ff0000" />
             </armor>
             <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
@@ -242,7 +242,7 @@
             <item type="stone sword" enchantments="damage all-2"/>
 
             <armor>
-                <chestplate type="leather chestplate"  color="334cb2" />
+                <boots type="leather boots"  color="334cb2" />
             </armor>
             <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
