@@ -242,7 +242,7 @@
             <item type="stone sword" enchantments="sharpness-3"/>
 
             <armor>
-                <chestplate type="leather chestplate  color="334cb2" />
+                <chestplate type="leather chestplate"  color="334cb2" />
             </armor>
             <potions>speed,6000,3,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
