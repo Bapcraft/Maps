@@ -202,6 +202,32 @@
             </armor>
             <potions>regeneration,100,5,false;Slow,6000,1,false</potions>
         </kit>
+		
+		<kit team="blue" id="Medic">
+            <item type="wood sword" enchantments="unbreaking-3" />
+			<item type="potion" data="16453" amount="16" />
+
+            <armor>
+                <helmet type="leather helmet" color="334cb2"/>
+                <chestplate type="gold chestplate"/>
+                <leggings type="gold leggings"/>
+                <boots type="gold boots"/>
+            </armor>
+            <potions>speed,6000,1,false;regeneration,100,1,false</potions>
+        </kit>
+		
+		<kit team="red" id="Medic">
+            <item type="wood sword" enchantments="unbreaking-3" />
+			<item type="potion" data="16453" amount="16" />
+
+            <armor>
+                <helmet type="leather helmet" color="ff0000"/>
+                <chestplate type="gold chestplate"/>
+                <leggings type="gold leggings"/>
+                <boots type="gold boots"/>
+            </armor>
+            <potions>speed,6000,1,false;regeneration,100,1,false</potions>
+        </kit>
     </kits>
 
     <timelimit>
