@@ -210,7 +210,7 @@
             <armor>
                 <helmet type="leather helmet" color="334cb2"/>
                 <chestplate type="gold chestplate"/>
-                <leggings type="gold leggings"/>
+                <leggings type="leather leggings"/>
                 <boots type="gold boots"/>
             </armor>
             <potions>speed,6000,1,false;regeneration,100,1,false</potions>
@@ -223,33 +223,39 @@
             <armor>
                 <helmet type="leather helmet" color="ff0000"/>
                 <chestplate type="gold chestplate"/>
-                <leggings type="gold leggings"/>
+                <leggings type="leather leggings"/>
                 <boots type="gold boots"/>
             </armor>
             <potions>speed,6000,1,false;regeneration,100,1,false</potions>
         </kit>
 		
 		<kit team="red" id="Assassin">
-            <item type="stone sword" enchantments="damage all-3" />
+            <item type="stone sword" enchantments="damage all-2" />
 
             <armor>
+				<chestplate type="leather helmet" color="ff0000" />
                 <chestplate type="leather chestplate" color="ff0000" />
+				<chestplate type="leather leggings" color="ff0000" />
+				<chestplate type="leather boots" color="ff0000" />
             </armor>
-            <potions>speed,6000,3,false;regeneration,100,1,false;jump,6000,2,false</potions>
+            <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
 		
 		<kit team="blue" id="Assassin">
-            <item type="stone sword" enchantments="damage all-3"/>
+            <item type="stone sword" enchantments="damage all-2"/>
 
             <armor>
+				<chestplate type="leather helmet" color="ff0000" />
                 <chestplate type="leather chestplate"  color="334cb2" />
+				<chestplate type="leather leggings" color="ff0000" />
+				<chestplate type="leather boots" color="ff0000" />
             </armor>
-            <potions>speed,6000,3,false;regeneration,100,1,false;jump,6000,2,false</potions>
+            <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
 		
 		<kit team="red" id="Sniper">
             <item type="wood axe" enchantments="durability-3"/>
-            <item type="bow" enchantments="arrow damage-3"/>
+            <item type="bow" enchantments="arrow damage-2"/>
             <item type="arrow" amount="64"/>
 
             <armor>
@@ -263,7 +269,7 @@
 
         <kit team="blue" id="Sniper">
             <item type="wood axe" enchantments="durability-3"/>
-            <item type="bow" enchantments="arrow damage-3"/>
+            <item type="bow" enchantments="arrow damage-2"/>
             <item type="arrow" amount="64"/>
             <armor>
                 <helmet type="leather helmet" color="334cb2"/>
