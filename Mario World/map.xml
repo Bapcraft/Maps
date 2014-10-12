@@ -240,7 +240,8 @@
 		
 		<kit team="blue" id="Medic">
             <item type="wood sword" enchantments="durability-3" />
-			<item type="potion" data="16453" amount="16" />
+			<item type="potion" data="16453" amount="8" />
+			<item type="potion" data="16385" amount="2" />
 
             <armor>
                 <helmet type="leather helmet" color="334cb2"/>
@@ -253,7 +254,8 @@
 		
 		<kit team="red" id="Medic">
             <item type="wood sword" enchantments="durability-3" />
-			<item type="potion" data="16453" amount="16" />
+			<item type="potion" data="16453" amount="8" />
+			<item type="potion" data="16385" amount="2" />
 
             <armor>
                 <helmet type="leather helmet" color="ff0000"/>
