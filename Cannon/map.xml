@@ -56,15 +56,15 @@
 
     <spawns beds="off">
         <spawn team="purple">
-            <loc x="619" y="28" z="59"/>
+            <loc x="0" y="106" z="52"/>
         </spawn>
 
         <spawn team="green">
-            <loc x="430" y="28" z="72"/>
+            <loc x="0" y="106" z="-51"/>
         </spawn>
 
         <spectators>
-            <loc x="522" y="25" z="159"/>
+            <loc x="0" y="152" z="0"/>
         </spectators>
     </spawns>
 
@@ -84,7 +84,7 @@
         </team>
 
         <team>
-            <id>GREEN</id>
+            <id>green</id>
             <color>GREEN</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
