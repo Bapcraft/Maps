@@ -48,7 +48,23 @@
         <type>FALL</type>
     </disabledamage>
 
+    <building>
+        <break>
+            <enabled>
+            </enabled>
+            <disabled>
+                <all/>
+            </disabled>
+        </break>
 
+        <place>
+            <enabled>
+            </enabled>
+            <disabled>
+                <all/>
+            </disabled>
+        </place>
+    </building>
 
     <timelimit updatetitle="true">
         <time>600</time>
@@ -276,10 +292,10 @@
 
     <building>
         <break>
-            <block type="tnt" />
+            <none/>
         </break>
         <place>
-            <block type="tnt" />
+            <none/>
         </place>
     </building>
 
