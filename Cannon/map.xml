@@ -131,7 +131,7 @@
 
         <kit team="red" id="Archer">
             <item type="wood sword" enchantments="durability-3"/>
-            <item type="bow" enchantments="arrow infinite-1;arrow damage-1;flame arrow-1"/>
+            <item type="bow" enchantments="arrow infinite-1;flame arrow-1"/>
             <item type="arrow" amount="1"/>
 
             <armor>
@@ -145,7 +145,7 @@
 
         <kit team="blue" id="Archer">
             <item type="wood sword" enchantments="durability-3"/>
-            <item type="bow" enchantments="arrow infinite-1;arrow damage-1;flame arrow-1"/>
+            <item type="bow" enchantments="arrow infinite-1;flame arrow-1"/>
             <item type="arrow" amount="1"/>
             <armor>
                 <helmet type="leather helmet" color="334cb2"/>
