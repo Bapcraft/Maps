@@ -1,0 +1,307 @@
+<map>
+    <name>Cannon</name>
+
+    <description>TDM With a Twist! </description>
+
+    <authors>
+        <author>owlauss</author>
+        <author>zoads</author>
+    </authors>
+
+    <difficulty>NORMAL</difficulty>
+
+    <friendlyfire>off</friendlyfire>
+
+    <modules>
+        <module name="spawns"/>
+        <module name="teams"/>
+        <module name="autorespawn"/>
+        <module name="gamerules"/>
+        <module name="kits"/>
+        <module name="pickkits"/>
+        <module name="timelimit"/>
+        <module name="building"/>
+        <module name="removeitems"/>
+        <module name="timelimit"/>
+        <module name="building"/>
+        <module name="autojoin"/>
+        <module name="disabledamage"/>
+        <module name="reports"/>
+        <module name="nohunger"/>
+        <module name="spectatoritems"/>
+        <module name="mobspawning"/>
+    </modules>
+
+    <mobspawning>
+        <disabled>
+            <CREEPER/>
+            <SKELETON/>
+            <ZOMBIE/>
+            <ENDERMAN/>
+            <PIG/>
+            <SLIME/>
+        </disabled>
+        <enabled></enabled>
+    </mobspawning>
+
+    <disabledamage>
+        <type>FALL</type>
+    </disabledamage>
+
+    <building>
+        <break>
+            <enabled>
+            	<block type="tnt" />
+            </enabled>
+            <disabled>
+            	<all/>
+            </disabled>
+        </break>
+
+        <place>
+            <enabled>
+            	<block type="tnt" />
+            </enabled>
+            <disabled>
+                <all/>
+            </disabled>
+        </place>
+    </building>
+
+    <timelimit updatetitle="true">
+        <time>600</time>
+    </timelimit>
+
+    <spawns beds="off">
+        <spawn team="purple">
+            <loc x="619" y="28" z="59"/>
+        </spawn>
+
+        <spawn team="green">
+            <loc x="430" y="28" z="72"/>
+        </spawn>
+
+        <spectators>
+            <loc x="522" y="25" z="159"/>
+        </spectators>
+    </spawns>
+
+    <teams>
+        <team>
+            <id>purple</id>
+            <color>PURPLE</color>
+            <mode>ADVENTURE</mode>
+            <max>12</max>
+            <min>2</min>
+
+            <goals>
+                <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
+                <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false"
+                      depends="time"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>GREEN</id>
+            <color>GREEN</color>
+            <mode>ADVENTURE</mode>
+            <max>12</max>
+            <min>2</min>
+
+            <goals>
+                <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
+                <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false"
+                      depends="time"/>
+            </goals>
+        </team>
+
+    </teams>
+
+    <autorespawn time="1"/>
+
+    <gamerules>
+        <gamerule key="doDaylightCycle" value="false"/>
+        <gamerule key="doMobSpawning" value="false"/>
+        <gamerule key="doTileDrops" value="false"/>
+    </gamerules>
+
+    <kits>
+        <default>
+            <health>20</health>
+            <maxhealth>20</maxhealth>
+        </default>
+
+        <kit team="red" id="Archer">
+            <item type="wood sword" enchantments="durability-3"/>
+            <item type="bow" enchantments="arrow infinite-1;arrow damage-1;flame arrow-1"/>
+            <item type="arrow" amount="1"/>
+
+            <armor>
+                <helmet type="leather helmet" color="ff0000"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;speed,600000,1,false;regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="blue" id="Archer">
+            <item type="wood sword" enchantments="durability-3"/>
+            <item type="bow" enchantments="arrow infinite-1;arrow damage-1;flame arrow-1"/>
+            <item type="arrow" amount="1"/>
+            <armor>
+                <helmet type="leather helmet" color="334cb2"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;speed,600000,1,false;regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="red" id="Knight">
+            <item type="iron sword"/>
+
+            <armor>
+                <helmet type="leather helmet" color="ff0000"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="leather leggings" color="ffffff"/>
+                <boots type="leather boots" color="ffffff"/>
+            </armor>
+            <potions>regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="blue" id="Knight">
+            <item type="iron sword"/>
+
+            <armor>
+                <helmet type="leather helmet" color="334cb2"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="leather leggings" color="ffffff"/>
+                <boots type="leather boots" color="ffffff"/>
+            </armor>
+            <potions>regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="red" id="Tank">
+            <item type="stone sword"/>
+            <item type="tnt" amount="20"/>
+
+            <armor>
+                <helmet type="chainmail helmet"/>
+                <chestplate type="diamond chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>regeneration,100,5,false;Slow,6000,1,false</potions>
+        </kit>
+
+        <kit team="blue" id="Tank">
+            <item type="stone sword"/>
+            <item type="tnt" amount="20"/>
+
+            <armor>
+                <helmet type="chainmail helmet"/>
+                <chestplate type="diamond chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>regeneration,100,5,false;Slow,6000,1,false</potions>
+        </kit>
+		
+		<kit team="blue" id="Medic">
+            <item type="wood sword" enchantments="durability-3" />
+			<item type="potion" data="16453" amount="8" />
+			<item type="potion" data="16385" amount="2" />
+
+            <armor>
+                <helmet type="leather helmet" color="334cb2"/>
+                <chestplate type="gold chestplate"/>
+                <leggings type="leather leggings"/>
+                <boots type="gold boots"/>
+            </armor>
+            <potions>speed,6000,1,false;regeneration,100,1,false</potions>
+        </kit>
+		
+		<kit team="red" id="Medic">
+            <item type="wood sword" enchantments="durability-3" />
+			<item type="potion" data="16453" amount="8" />
+			<item type="potion" data="16385" amount="2" />
+
+            <armor>
+                <helmet type="leather helmet" color="ff0000"/>
+                <chestplate type="gold chestplate"/>
+                <leggings type="leather leggings"/>
+                <boots type="gold boots"/>
+            </armor>
+            <potions>speed,6000,1,false;regeneration,100,1,false</potions>
+        </kit>
+		
+		<kit team="red" id="Assassin" force="true">
+            <item type="stone sword" enchantments="damage all-2" />
+
+            <armor>
+                <boots type="leather boots" color="ff0000" />
+            </armor>
+            <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
+        </kit>
+		
+		<kit team="blue" id="Assassin" force="true">
+            <item type="stone sword" enchantments="damage all-2"/>
+
+            <armor>
+                <boots type="leather boots"  color="334cb2" />
+            </armor>
+            <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
+        </kit>
+		
+		<kit team="red" id="Sniper">
+            <item type="wood sword" enchantments="durability-3"/>
+            <item type="bow" enchantments="arrow damage-2"/>
+            <item type="arrow" amount="64"/>
+            <item type="arrow" amount="64"/>
+            <item type="arrow" amount="64"/>
+            <item type="arrow" amount="64"/>
+
+            <armor>
+                <helmet type="leather helmet" color="ff0000"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="blue" id="Sniper">
+            <item type="wood sword" enchantments="durability-3"/>
+            <item type="bow" enchantments="arrow damage-2"/>
+            <item type="arrow" amount="64"/>
+            <item type="arrow" amount="64"/>
+            <item type="arrow" amount="64"/>
+            <item type="arrow" amount="64"/>
+            <armor>
+                <helmet type="leather helmet" color="334cb2"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;regeneration,100,5,false</potions>
+        </kit>
+    </kits>
+
+    <timelimit>
+        <time>300</time>
+    </timelimit>
+
+    <building>
+        <break>
+            <block type="tnt" />
+        </break>
+        <place>
+            <block type="tnt" />
+        </place>
+    </building>
+
+    <removeitems>
+        <all/>
+    </removeitems>
+</map>
