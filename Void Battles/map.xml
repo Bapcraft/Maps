@@ -29,6 +29,7 @@
         <module name="nohunger"/>
         <module name="spectatoritems"/>
         <module name="mobspawning"/>
+	<module name="teamchat"/>
     </modules>
 
     <mobspawning>
