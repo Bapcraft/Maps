@@ -97,7 +97,7 @@
             <color>RED</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
-            <min>2</min>
+            <min>3</min>
 
             <goals>
                 <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
@@ -111,7 +111,7 @@
             <color>BLUE</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
-            <min>2</min>
+            <min>3</min>
 
             <goals>
                 <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
@@ -125,7 +125,7 @@
             <color>GREEN</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
-            <min>2</min>
+            <min>3</min>
 
             <goals>
                 <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
@@ -139,7 +139,7 @@
             <color>YELLOW</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
-            <min>2</min>
+            <min>3</min>
 
             <goals>
                 <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
