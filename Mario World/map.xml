@@ -122,7 +122,7 @@
         
         <team>
             <id>green</id>
-            <color>RED</color>
+            <color>GREEN</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
             <min>2</min>
@@ -136,7 +136,7 @@
         
         <team>
             <id>yellow</id>
-            <color>RED</color>
+            <color>YELLOW</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
             <min>2</min>
