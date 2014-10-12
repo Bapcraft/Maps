@@ -83,7 +83,7 @@
         </spawn>
 
         <spawn team="yellow">
-            <loc x="43" y="93" z="34"/>
+            <loc x="26" y="87" z="-92"/>
         </spawn>
 
         <spectators>
