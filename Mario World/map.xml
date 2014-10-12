@@ -75,7 +75,7 @@
         </spawn>
 
         <spawn team="red">
-            <loc x="-40" y="90" z="41"/>
+            <loc x="14" y="96" z="-2"/>
         </spawn>
         
         <spawn team="green">
