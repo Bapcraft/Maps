@@ -71,11 +71,11 @@
     </timelimit>
 
     <spawns beds="off">
-        <spawn team="purple">
+        <spawn team="red">
             <loc x="0" y="106" z="52"/>
         </spawn>
 
-        <spawn team="green">
+        <spawn team="blue">
             <loc x="0" y="106" z="-51"/>
         </spawn>
 
@@ -86,8 +86,8 @@
 
     <teams>
         <team>
-            <id>purple</id>
-            <color>PURPLE</color>
+            <id>red</id>
+            <color>RED</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
             <min>2</min>
@@ -100,8 +100,8 @@
         </team>
 
         <team>
-            <id>green</id>
-            <color>GREEN</color>
+            <id>blue</id>
+            <color>BLUE</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
             <min>2</min>
