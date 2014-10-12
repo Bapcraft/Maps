@@ -89,7 +89,7 @@
             <color>RED</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
-            <min>2</min>
+            <min>4</min>
 
             <goals>
                 <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
@@ -103,7 +103,7 @@
             <color>BLUE</color>
             <mode>ADVENTURE</mode>
             <max>12</max>
-            <min>2</min>
+            <min>4</min>
 
             <goals>
                 <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
