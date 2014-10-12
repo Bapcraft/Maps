@@ -1,10 +1,10 @@
 <map>
     <name>Nuketown</name>
 
-    <description>A classic map!</description>
+    <description>A Basic TDM gamemode</description>
 
     <authors>
-        <author>rox9495</author>
+        <author>BapCraft Build team</author>
     </authors>
 
     <difficulty>NORMAL</difficulty>
