@@ -236,6 +236,7 @@
 		
 		<kit team="red" id="Assassin" force="true">
             <item type="stone sword" enchantments="damage all-2" />
+            <item type="flint and steel"/>
 
             <armor>
                 <boots type="leather boots" color="ff0000" />
@@ -245,6 +246,7 @@
 		
 		<kit team="blue" id="Assassin" force="true">
             <item type="stone sword" enchantments="damage all-2"/>
+            <item type="flint and steel"/>
 
             <armor>
                 <boots type="leather boots"  color="334cb2" />
