@@ -36,7 +36,8 @@
     </modules>
     
     <unbreakable>
-    	<block type="sign" />
+    	<block type="sign post" />
+    	<block type="sign wall" />
     </unbreakable>
 
     <mobspawning>
