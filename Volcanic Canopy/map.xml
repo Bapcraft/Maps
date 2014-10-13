@@ -30,7 +30,6 @@
         <module name="nohunger"/>
         <module name="spectatoritems"/>
         <module name="mobspawning"/>
-		<module name="teamchat"/>
 		<module name="stats"/>
 		<module name="autojoin"/>
     </modules>
