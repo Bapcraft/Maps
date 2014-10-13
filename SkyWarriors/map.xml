@@ -19,6 +19,7 @@
         <module name="spectatoritems"/>
         <module name="autojoin"/>
         <module name="shop"/>
+		<module name="stats"/>
     </modules>
 
     <spawns beds="on">
@@ -249,4 +250,11 @@
 			<item type="fishing rod" amount="1" price="50" customname="Fishing Rod"/>
         </items>
     </shop>
+	
+	<stats>
+		<kill>2</kill>
+		<death>-1</death>
+		<win>5</win>
+		<lose>0</lose>
+	</stats>
 </map>
