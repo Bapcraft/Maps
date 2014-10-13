@@ -205,7 +205,7 @@
             <potions>regeneration,100,5,false;Slow,6000,1,false</potions>
         </kit>
 		
-		<kit team="blue" id="Medic">
+		<kit team="blue" id="Medic" required="650">
             <item type="wood sword" enchantments="durability-3" />
 			<item type="potion" data="16453" amount="8" />
 			<item type="potion" data="16385" amount="2" />
@@ -219,7 +219,7 @@
             <potions>speed,6000,1,false;regeneration,100,1,false</potions>
         </kit>
 		
-		<kit team="red" id="Medic">
+		<kit team="red" id="Medic" required="650">
             <item type="wood sword" enchantments="durability-3" />
 			<item type="potion" data="16453" amount="8" />
 			<item type="potion" data="16385" amount="2" />
@@ -233,7 +233,7 @@
             <potions>speed,6000,1,false;regeneration,100,1,false</potions>
         </kit>
 		
-		<kit team="red" id="Assassin" force="true">
+		<kit team="red" id="Assassin" force="true" required="750">
             <item type="stone sword" enchantments="damage all-2" />
 
             <armor>
@@ -242,7 +242,7 @@
             <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
 		
-		<kit team="blue" id="Assassin" force="true">
+		<kit team="blue" id="Assassin" force="true" required="750">
             <item type="stone sword" enchantments="damage all-2"/>
 
             <armor>
@@ -251,7 +251,7 @@
             <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
         </kit>
 		
-		<kit team="red" id="Sniper">
+		<kit team="red" id="Sniper" required="500">
             <item type="wood sword" enchantments="durability-3"/>
             <item type="bow" enchantments="arrow damage-2"/>
             <item type="arrow" amount="64"/>
@@ -268,7 +268,7 @@
             <potions>jump,600000,0,false;regeneration,100,5,false</potions>
         </kit>
 
-        <kit team="blue" id="Sniper">
+        <kit team="blue" id="Sniper" required="500">
             <item type="wood sword" enchantments="durability-3"/>
             <item type="bow" enchantments="arrow damage-2"/>
             <item type="arrow" amount="64"/>
