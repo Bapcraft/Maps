@@ -30,6 +30,8 @@
         <module name="nohunger"/>
         <module name="spectatoritems"/>
         <module name="mobspawning"/>
+		<module name="stats"/>
+		<module name="teamchat"/>
     </modules>
 
     <mobspawning>
@@ -304,4 +306,11 @@
     <removeitems>
         <all/>
     </removeitems>
+	
+	<stats>
+		<kill>1</kill>
+		<death>0</death>
+		<win>10</win>
+		<lose>0</lose>
+	</stats>
 </map>
