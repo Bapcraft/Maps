@@ -37,6 +37,7 @@
     
     <unbreakable>
     	<block type="sign wall" />
+    	<block type="sign" />
     </unbreakable>
 
     <mobspawning>
