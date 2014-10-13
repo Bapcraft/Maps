@@ -1,7 +1,7 @@
 <map>
     <name>Cannon</name>
 
-    <description>TDM With a Twist! </description>
+    <description>TDM With a twist!</description>
 
     <authors>
         <author>owlauss</author>
@@ -32,7 +32,12 @@
         <module name="mobspawning"/>
 		<module name="stats"/>
 		<module name="teamchat"/>
+		<module name="unbreakable"/>
     </modules>
+    
+    <unbreakable>
+    	<block type="sign wall" />
+    </unbreakable>
 
     <mobspawning>
         <disabled>
