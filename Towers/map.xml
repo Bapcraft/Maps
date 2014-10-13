@@ -281,7 +281,12 @@
 	<stats>
 		<kill>2</kill>
 		<death>-1</death>
-		<win>5</win>
 		<lose>0</lose>
+		<goals>
+			<goal>
+			<id>lastplayerleft</id>
+			<amount>5</amount>
+			</goal>
+		</goals>
 	</stats>
 </map>
