@@ -1,0 +1,158 @@
+<map>
+    <name>Parkour Event</name>
+
+    <description>A BapCraft Parkour Event!</description>
+
+    <authors>
+        <author>AMEN1RAH</author>
+	<author>Pishmans</author>
+    </authors>
+
+    <difficulty>PEACEFUL</difficulty>
+
+    <friendlyfire>off</friendlyfire>
+
+    <modules>
+	<module name="building" />
+        <module name="spawns" />
+        <module name="teams" />
+        <module name="autorespawn" />
+        <module name="gamerules" />
+        <module name="nohunger" />
+        <module name="spectatoritems" />
+        <module name="regions" />
+        <module name="disabledamage" />
+	<module name="balance" />
+        <module name="kits" />
+        <module name="hideplayers" />
+    </modules>
+
+    <building>
+        <break>
+            <enabled>
+            </enabled>
+            <disabled>
+                <all />
+            </disabled>
+        </break>
+
+        <place>
+            <enabled>
+            </enabled>
+            <disabled>
+                <all />
+            </disabled>
+        </place>
+    </building>
+
+    <spawns beds="off" checkpoints="true">
+        <spawn team="goat">
+            <loc x="-5" y="98" z="-54"/>
+        </spawn>
+
+        <spawn team="popptart">
+            <loc x="5" y="99" z="-54" />
+        </spawn>
+
+        <spectators>
+            <loc x="0" y="99" z="-68" />
+        </spectators>
+    </spawns>
+
+    <teams>
+        <team>
+            <id>goat</id>
+            <color>YELLOW</color>
+            <mode>ADVENTURE</mode>
+            <max>100</max>
+            <min>40</min>
+
+            <goals>
+		<goal name="reachlocation" visible="false" showonscoreboard="false" permanent="true" amount="3">
+		<players>
+		<player>Whiteboy7thst</player>
+		</players>
+		<cuboid minX="-2" minY="142" minZ="621" maxX="0" maxY="145" maxZ="619" />
+	   </goal>		
+            </goals>
+        </team>
+
+        <team>
+            <id>popptart</id>
+            <color>LIGHT_PURPLE</color>
+            <mode>ADVENTURE</mode>
+            <max>100</max>
+            <min>40</min>
+
+            <goals>
+		<goal name="reachlocation" visible="false" showonscoreboard="false" permanent="true" amount="3">
+		<players>
+		<player>KPopp</player>
+		</players>
+		<cuboid minX="5" minY="143" minZ="619" maxX="7" maxY="145" maxZ="621" />		
+		</goal>
+            </goals>
+        </team>
+
+    </teams>
+
+    <autorespawn time="1" />
+
+    <gamerules>
+        <gamerule key="doMobSpawning" value="deny" />
+    </gamerules>
+
+    <regions>
+      <region name="goatstart">
+        <min x="-8" y="98" z="-55" />
+        <max x="-2" y="101" z="-55" />
+
+    <flags>
+      <flag name="ENTRY" value="deny" teams="popptart" />
+      <flag name="ENTRY" value="allow" teams="goat" />
+    </flags>
+   </region>
+
+    <region name="popptartstart">
+        <min x="2" y="98" z="-55" />
+        <max x="7" y="101" z="-55" />
+
+    <flags>
+      <flag name="ENTRY" value="deny" teams="goat" />
+      <flag name="ENTRY" value="allow" teams="popptart" />
+    </flags>
+   </region>
+
+    <region name="goatend">
+        <min x="-22" y="139" z="596" />
+        <max x="1" y="153" z="647" />
+
+    <flags>
+      <flag name="ENTRY" value="deny" teams="popptart" />
+      <flag name="ENTRY" value="allow" teams="goat" />
+    </flags>
+   </region>
+
+    <region name="popptartend">
+        <min x="3" y="139" z="-54" />
+        <max x="33" y="159" z="65" />
+
+    <flags>
+      <flag name="ENTRY" value="deny" teams="goat" />
+      <flag name="ENTRY" value="allow" teams="popptart" />
+    </flags>
+   </region>
+  </regions>
+
+  <disabledamage>
+        <type>FALL</type>
+  </disabledamage>
+  
+  <balance amount="2" />
+
+<kits>
+  <default>
+  <item type="redstone torch on" name="&amp;bHide/Show Players"/>
+  </default>
+</kits>
+</map>

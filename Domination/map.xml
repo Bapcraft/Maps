@@ -1,0 +1,328 @@
+<map>
+    <name>Domination</name>
+    <description>Popptarts vs Goats Get to the throne!</description>
+    <authors>
+        <author>BapCraft Build Team</author>
+    </authors>
+    <difficulty>NORMAL</difficulty>
+    <friendlyfire>off</friendlyfire>
+    <modules>
+        <module name="spawns"/>
+        <module name="teams"/>
+        <module name="autorespawn"/>
+        <module name="gamerules"/>
+        <module name="kits"/>
+        <module name="pickkits"/>
+        <module name="building"/>
+        <module name="removeitems"/>
+        <module name="building"/>
+        <module name="disabledamage"/>
+        <module name="nohunger"/>
+        <module name="spectatoritems"/>
+        <module name="mobspawning"/>
+	<module name="regions" />
+	<module name="balance" />
+    </modules>
+    <mobspawning>
+        <disabled>
+            <CREEPER/>
+            <SKELETON/>
+            <ZOMBIE/>
+            <ENDERMAN/>
+            <PIG/>
+            <SLIME/>
+        </disabled>
+        <enabled></enabled>
+    </mobspawning>
+    <disabledamage>
+        <type>FALL</type>
+    </disabledamage>
+    <building>
+        <break>
+            <enabled>
+            	<block type="obsidian" />
+            	<block type="vine" />
+            	<block type="iron fence" />
+            	<block type="cobble wall" />
+            </enabled>
+            <disabled>
+                <all/>
+            </disabled>
+        </break>
+        <place>
+            <enabled>
+				<block type="cobble wall" />
+            </enabled>
+            <disabled>
+            </disabled>
+        </place>
+    </building>
+    <spawns beds="off">
+        <spawn team="goat">
+            <loc x="326" y="41" z="473"/>
+        </spawn>
+        <spawn team="popptart">
+            <loc x="323" y="41" z="635"/>
+        </spawn>
+        <spectators>
+            <loc x="323" y="100" z="549"/>
+        </spectators>
+    </spawns>
+    <teams>
+        <team>
+            <id>popptart</id>
+            <color>LIGHT_PURPLE</color>
+            <mode>SURVIVAL</mode>
+            <max>30</max>
+            <min>20</min>
+            <goals>
+                <goal name="reachlocation" id="Get to the Goat Throne!" permanent="false" showonscoreboard="false" visible="true" amount="2">
+				<players></players>
+                        <cuboid minX="324" minY="34" minZ="454" maxX="332" maxY="44" maxZ="468" />
+		</goal>
+            </goals>
+        </team>
+        <team>
+            <id>goat</id>
+            <color>YELLOW</color>
+            <mode>SURVIVAL</mode>
+            <max>30</max>
+            <min>20</min>
+
+            <goals>
+                <goal name="reachlocation" id="Get to the Popptart Throne!" permanent="false" showonscoreboard="false" visible="true" amount="2">
+				<players></players>
+                	<cuboid minX="317" minY="34" minZ="640" maxX="325" maxY="44" maxZ="654" />
+		</goal>
+            </goals>
+        </team>
+    </teams>
+    <autorespawn time="1"/>
+    <gamerules>
+        <gamerule key="doDaylightCycle" value="false"/>
+        <gamerule key="doMobSpawning" value="false"/>
+        <gamerule key="doTileDrops" value="false"/>
+    </gamerules>
+
+    <kits>
+        <default>
+            <health>20</health>
+            <maxhealth>20</maxhealth>
+        </default>
+
+        <kit team="popptart" id="Archer">
+            <item type="wood sword" enchantments="durability-3"/>
+            <item type="bow" enchantments="arrow infinite-1;arrow damage-1"/>
+            <item type="arrow" amount="1"/>
+            <item type="diamond pickaxe"/>
+            <item type="cobble wall" amount="10"/>
+
+            <armor>
+                <helmet type="leather helmet"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;speed,600000,1,false;regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="goat" id="Archer">
+            <item type="wood sword" enchantments="durability-3"/>
+            <item type="bow" enchantments="arrow infinite-1;arrow damage-1"/>
+            <item type="arrow" amount="1"/>
+            <item type="diamond pickaxe"/>
+            <item type="cobble wall" amount="10"/>
+            <armor>
+                <helmet type="leather helmet"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;speed,600000,1,false;regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="popptart" id="Knight">
+            <item type="iron sword"/>
+            <item type="diamond pickaxe"/>
+
+            <armor>
+                <helmet type="leather helmet"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="leather leggings"/>
+                <boots type="leather boots"/>
+            </armor>
+            <potions>regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="goat" id="Knight">
+            <item type="iron sword"/>
+            <item type="diamond pickaxe"/>
+
+            <armor>
+                <helmet type="leather helmet"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="leather leggings"/>
+                <boots type="leather boots"/>
+            </armor>
+            <potions>regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="popptart" id="Tank">
+            <item type="stone sword"/>
+            <item type="diamond pickaxe"/>
+            <item type="cobble wall" amount="10"/>
+
+            <armor>
+                <helmet type="chainmail helmet"/>
+                <chestplate type="diamond chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>regeneration,100,5,false;Slow,6000,1,false</potions>
+        </kit>
+
+        <kit team="goat" id="Tank">
+            <item type="stone sword"/>
+            <item type="diamond pickaxe"/>
+            <item type="cobble wall" amount="10"/>
+
+            <armor>
+                <helmet type="chainmail helmet"/>
+                <chestplate type="diamond chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>regeneration,100,5,false;Slow,6000,1,false</potions>
+        </kit>
+		
+		<kit team="popptart" id="Medic">
+            <item type="wood sword" enchantments="durability-3" />
+			<item type="potion" data="16453" amount="8" />
+			<item type="potion" data="16385" amount="2" />
+			<item type="diamond pickaxe"/>
+
+            <armor>
+                <helmet type="leather helmet"/>
+                <chestplate type="gold chestplate"/>
+                <leggings type="leather leggings"/>
+                <boots type="gold boots"/>
+            </armor>
+            <potions>speed,6000,1,false;regeneration,100,1,false</potions>
+        </kit>
+		
+		<kit team="goat" id="Medic">
+            <item type="wood sword" enchantments="durability-3" />
+			<item type="potion" data="16453" amount="8" />
+			<item type="potion" data="16385" amount="2" />
+			<item type="diamond pickaxe"/>
+
+            <armor>
+                <helmet type="leather helmet"/>
+                <chestplate type="gold chestplate"/>
+                <leggings type="leather leggings"/>
+                <boots type="gold boots"/>
+            </armor>
+            <potions>speed,6000,1,false;regeneration,100,1,false</potions>
+        </kit>
+		
+		<kit team="popptart" id="Assassin" force="true">
+            <item type="stone sword" enchantments="damage all-2" />
+            <item type="diamond pickaxe"/>
+
+            <armor>
+                <boots type="leather boots"/>
+            </armor>
+            <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
+        </kit>
+		
+		<kit team="goat" id="Assassin" force="true">
+            <item type="stone sword" enchantments="damage all-2"/>
+            <item type="diamond pickaxe"/>
+
+            <armor>
+                <boots type="leather boots"  color="334cb2" />
+            </armor>
+            <potions>speed,6000,2,false;regeneration,100,1,false;jump,6000,2,false</potions>
+        </kit>
+		
+		<kit team="popptart" id="Sniper">
+            <item type="wood sword" enchantments="durability-3"/>
+            <item type="bow" enchantments="arrow damage-2"/>
+            <item type="arrow" amount="64"/>
+            <item type="arrow" amount="64"/>
+            <item type="diamond pickaxe"/>
+            <item type="cobble wall" amount="10"/>
+
+            <armor>
+                <helmet type="leather helmet"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;regeneration,100,5,false</potions>
+        </kit>
+
+        <kit team="goat" id="Sniper">
+            <item type="wood sword" enchantments="durability-3"/>
+            <item type="bow" enchantments="arrow damage-2"/>
+            <item type="arrow" amount="64"/>
+            <item type="arrow" amount="64"/>
+            <item type="diamond pickaxe"/>
+            <item type="cobble wall" amount="10"/>
+            <armor>
+                <helmet type="leather helmet"/>
+                <chestplate type="iron chestplate"/>
+                <leggings type="chainmail leggings"/>
+                <boots type="chainmail boots"/>
+            </armor>
+            <potions>jump,600000,0,false;regeneration,100,5,false</potions>
+        </kit>
+    </kits>
+    <removeitems>
+        <all/>
+    </removeitems>
+
+    <regions>
+      <region name="goatcastle">
+        <min x="280" y="38" z="485" />
+        <max x="369" y="77" z="435" />
+
+    <flags>
+      <flag name="BUILD" value="deny" teams="popptart" />
+      <flag name="BUILD" value="allow" teams="goat" />
+    </flags>
+   </region>
+
+    <region name="popptartcastle">
+        <min x="370" y="38" z="623" />
+        <max x="280" y="77" z="672" />
+
+    <flags>
+      <flag name="BUILD" value="deny" teams="goat" />
+      <flag name="BUILD" value="allow" teams="popptart" />
+    </flags>
+   </region>
+
+    <region name="goatspawn">
+        <min x="325" y="48" z="468" />
+        <max x="345" y="48" z="475" />
+
+    <flags>
+      <flag name="ENTRY" value="allow" teams="goat" />
+      <flag name="ENTRY" value="deny" teams="popptart" />
+    </flags>
+   </region>
+
+    <region name="popptartspawn">
+        <min x="304" y="48" z="633" />
+        <max x="324" y="48" z="640" />
+
+    <flags>
+      <flag name="ENTRY" value="allow" teams="popptart" />
+      <flag name="ENTRY" value="deny" teams="goat" />
+    </flags>
+   </region>
+  </regions>
+
+  <balance amount="2" />
+</map>
