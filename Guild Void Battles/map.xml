@@ -23,7 +23,6 @@
         <module name="removeitems"/>
         <module name="timelimit"/>
         <module name="building"/>
-        <module name="autojoin"/>
         <module name="disabledamage"/>
         <module name="reports"/>
         <module name="nohunger"/>
