@@ -90,6 +90,7 @@
             <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
             <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false" depends="time"/>
         </goals>
+        <mode>ADVENTURE</mode>
     </guilds>
 
     <autorespawn time="1"/>
