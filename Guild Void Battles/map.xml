@@ -12,8 +12,8 @@
     <friendlyfire>off</friendlyfire>
 
     <modules>
-        <module name="spawns"/>
         <module name="guilds"/>
+        <module name="spawns"/>
         <module name="autorespawn"/>
         <module name="gamerules"/>
         <module name="kits"/>
