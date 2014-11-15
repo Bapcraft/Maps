@@ -32,7 +32,7 @@
 	  	<max>1</max>
 	  	<min>1</min>
 	  	<goals>
-	  		<goal id="lastplayerleft" showonscoreboard="false" id="Last man standing" visible="false" />
+	  		<goal name="lastplayerleft" showonscoreboard="false" id="Last man standing" visible="false" />
 	  	</goals>
 	</dynamicteams>
 	
