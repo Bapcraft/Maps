@@ -58,6 +58,7 @@
 	<removeitems>
 		<item type="ghast tear" />
 		<item type="potion" data="16425"/>
+		<item type="potion" data="8233"/>
 	</removeitems>
 	
 	<!-- Terrible practice but 32 lines of duplicates that probably won't change is unnecessary -->
