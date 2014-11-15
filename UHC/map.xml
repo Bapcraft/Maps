@@ -44,7 +44,7 @@
 	</randomspawns>
 	
 	<gamerules>
-		<gamerule key="doNaturalRegeneration" value="false">
+		<gamerule key="doNaturalRegeneration" value="false" />
 	</gamerules>
 	
 	<timedcommands>
