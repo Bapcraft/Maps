@@ -1,0 +1,61 @@
+<map>
+	<name>UHC</name>
+	<description>No natural regeneration. Survival of the fittest</description>
+	
+	<authors>
+		<author>BartBarrow</author>
+		<author>Drago_Hanter</author>
+	</authors>
+	
+	<difficulty>HARD</difficulty>
+	
+	<friendlyfire>off</friendlyfire> <!--No one will be on the same team anyway -->
+	
+	<modules>
+		<module name="dynamicteams" /> <!-- Who wants to define each team individually anyway?-->
+		<module name="randomspawns" />
+		<module name="spawns" />
+		<module name="lives" /> <!-- One life each -->
+		<module name="nojoinmidgame" /> <!-- Can't join midway through a UHC-->
+		<module name="timedcommands" /> <!-- PVP regions -->
+		<module name="reports" /> <!-- Nice match statistics at the end -->
+		<module name="removeitems" /> <!-- Don't drop ghast tears -->
+		<module name="gamerules" /> <!-- UHC gamerule -->
+		<module name="autojoin" /> <!-- Join teams automatically -->
+	</modules>
+	
+	<!-- Define teams. There should be n number of teams for n number of players. Assuming 32-->
+  <dynamicteams>
+  	<amount>32</amount>
+  	<color>WHITE</color>
+  	<mode>SURVIVAL</mode>
+  	<max>1</max>
+  	<min>1</min>
+  	<goals>
+  		<goal id="lastplayerleft" showonscoreboard="false" id="Last man standing" visible="false" />
+  	</goals>
+  </dynamicteams>
+	
+	<spawns>
+	</spawns>
+	
+	<gamerules>
+		<gamerule key="doNaturalRegeneration" value="false">
+	</gamerules>
+	
+	<timedcommands>
+		<command time="0m">rg flag __global__ pvp deny</command>
+		<command time="5m">rg flag __global__ pvp allow</command>
+	</timedcommands>
+	
+	<!-- No ghast tears -->
+	<removeitems>
+		<item type="ghast tear" />
+		<item type="potion" potions="increase damage,90,1,false" />
+	</removeitems>
+	
+	<!-- Terrible practice but 32 lines of duplicates that probably won't change is unnecessary -->
+	<lives teamlives="false">
+		<life team="1">1</life><life team="2">1</life><life team="3">1</life><life team="4">1</life><life team="5">1</life><life team="6">1</life><life team="7">1</life><life team="8">1</life><life team="9">1</life><life team="10">1</life><life team="11">1</life><life team="12">1</life><life team="13">1</life><life team="14">1</life><life team="15">1</life><life team="16">1</life><life team="17">1</life><life team="18">1</life><life team="19">1</life><life team="20">1</life><life team="21">1</life><life team="22">1</life><life team="23">1</life><life team="24">1</life><life team="25">1</life><life team="26">1</life><life team="27">1</life><life team="28">1</life><life team="29">1</life><life team="30">1</life><life team="31">1</life><life team="32">1</life>
+	</lives>
+</map>
