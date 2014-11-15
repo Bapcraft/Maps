@@ -36,8 +36,12 @@
   	</goals>
   </dynamicteams>
 	
-	<spawns>
-	</spawns>
+	<randomspawns>
+		<centerx>0</centerx>
+		<centerz>0</centerz>
+		<distance>150</distance>
+		<radius>1500</radius>
+	</randomspawns>
 	
 	<gamerules>
 		<gamerule key="doNaturalRegeneration" value="false">
