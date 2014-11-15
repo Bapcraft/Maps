@@ -57,7 +57,7 @@
 	<!-- No ghast tears -->
 	<removeitems>
 		<item type="ghast tear" />
-		<item type="potion" potions="increase damage,67,1,false" />
+		<item type="potion" data="16425"/>
 	</removeitems>
 	
 	<!-- Terrible practice but 32 lines of duplicates that probably won't change is unnecessary -->
