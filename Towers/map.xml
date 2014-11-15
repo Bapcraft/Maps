@@ -11,7 +11,7 @@
     <friendlyfire>on</friendlyfire>
 
     <modules>
-        <module name="spawns"/>
+        <module name="randomspawns"/>
         <module name="teams"/>
         <module name="lives"/>
         <module name="chestregen"/>
