@@ -49,12 +49,12 @@
 	
 	<timedcommands>
 		<command time="0s">rg flag -w $world __global__ pvp deny</command>
-		<command time="0s">say Strength 2 pots are not allowed. Max level is Strength 1 only. Make it last.</command>
-		<command time="0s">say Regen pots are not allowed. Even though ghast tears dont drop.</command>
-		<command time="0s">Say Heath regen dose not exist. Only golden apples and health pots can heal.</command>
-		<command time="0s">Say Staff will be watching. Hacking in any form is not allowed. Ban on sight. </command>
-		<command time="0s">Say There is secrets in the walls of the 0,0 temple. </command>
-		<command time="1s">say 10 minute grace period begun</command>
+		<command time="0s">say Strength 2 pots cannot be brewed - Strength 1 can, however.</command>
+		<command time="0s">say Regeneration pots cannot be brewed.</command>
+		<command time="0s">Say There is no natural health regeneration. You must heal through golden apples and health pots</command>
+		<command time="0s">Say Staff will be watching - hacking of any form will not be tolerated </command>
+		<command time="0s">Say There are secrets in the template at (0,0) </command>
+		<command time="1s">say The ten minute grace period has begun!</command>
 		<command time="10m">rg flag  -w $world __global__ pvp allow</command>
 		<command time="10m">say PVP is now enabled! Fight or Die MUAHAHAHAAAA! ~Drago_Hanter</command>
 	</timedcommands>
