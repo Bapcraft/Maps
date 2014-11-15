@@ -1,6 +1,7 @@
 <map>
 	<name>UHC</name>
 	<description>No natural regeneration. Survival of the fittest</description>
+	<generator>normal</generator>
 	
 	<authors>
 		<author>BartBarrow</author>
