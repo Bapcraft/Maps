@@ -50,6 +50,7 @@
 	<timedcommands>
 		<command time="0m">rg flag __global__ pvp deny</command>
 		<command time="10m">rg flag __global__ pvp allow</command>
+		<command time="10m">say PVP is now enabled!</command>
 	</timedcommands>
 	
 	<!-- No ghast tears -->
