@@ -25,16 +25,16 @@
 	</modules>
 	
 	<!-- Define teams. There should be n number of teams for n number of players. Assuming 32-->
-  <dynamicteams>
-  	<amount>32</amount>
-  	<color>WHITE</color>
-  	<mode>SURVIVAL</mode>
-  	<max>1</max>
-  	<min>1</min>
-  	<goals>
-  		<goal id="lastplayerleft" showonscoreboard="false" id="Last man standing" visible="false" />
-  	</goals>
-  </dynamicteams>
+	<dynamicteams>
+	 	<amount>32</amount>
+	  	<color>WHITE</color>
+	  	<mode>SURVIVAL</mode>
+	  	<max>1</max>
+	  	<min>1</min>
+	  	<goals>
+	  		<goal id="lastplayerleft" showonscoreboard="false" id="Last man standing" visible="false" />
+	  	</goals>
+	</dynamicteams>
 	
 	<randomspawns>
 		<centerx>0</centerx>
