@@ -54,7 +54,16 @@
 		<command time="0s">Say There is no natural health regeneration. You must heal through golden apples and health pots</command>
 		<command time="0s">Say Staff will be watching - hacking of any form will not be tolerated </command>
 		<command time="0s">Say There are secrets in the template at (0,0) </command>
-		<command time="1s">say The ten minute grace period has begun!</command>
+		<command time="1s">say The ten minute grace period has begun. No pvp at this time!</command>
+		<command time="5m">Say 5 mins left before you can get attacked by other players.</command>
+		<command time="9m">Say 1 min left before you can get attacked by other players.</command>
+		<command time="9m30s">Say 30 seconds left before you can get attacked by other players.</command>
+		<command time="9m45s">Say 15 seconds left before you can get attacked by other players.</command>
+		<command time="9m55s">Say 5 seconds.</command>
+		<command time="9m56s">Say 4 seconds.</command>
+		<command time="9m57s">Say 3 seconds.</command>
+		<command time="9m58s">Say 2 seconds.</command>
+		<command time="9m59s">Say 1 seconds.</command>
 		<command time="10m">rg flag  -w $world __global__ pvp allow</command>
 		<command time="10m">say PVP is now enabled! Fight or Die MUAHAHAHAAAA! ~Drago_Hanter</command>
 	</timedcommands>
