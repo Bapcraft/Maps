@@ -14,7 +14,6 @@
 	<modules>
 		<module name="dynamicteams" /> <!-- Who wants to define each team individually anyway?-->
 		<module name="randomspawns" />
-		<module name="spawns" />
 		<module name="lives" /> <!-- One life each -->
 		<module name="nojoinmidgame" /> <!-- Can't join midway through a UHC-->
 		<module name="timedcommands" /> <!-- PVP regions -->
