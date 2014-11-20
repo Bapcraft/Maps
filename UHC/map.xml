@@ -54,7 +54,7 @@
 		<command time="10s">say Regeneration pots cannot be brewed.</command>
 		<command time="10s">Say There is no natural health regeneration. You must heal through golden apples and health pots</command>
 		<command time="10s">Say Staff will be watching - hacking of any form will not be tolerated </command>
-		<command time="10s">Say There are secrets in the template at (0,0) </command>
+		<command time="10s">Say There are secrets in the temple at (0,0) </command>
 		<command time="5m">Say 5 mins left before you can get attacked by other players.</command>
 		<command time="9m">Say 1 min left before you can get attacked by other players.</command>
 		<command time="9m-30s">Say 30 seconds left before you can get attacked by other players.</command>
