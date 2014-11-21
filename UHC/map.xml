@@ -87,7 +87,7 @@
 		<min x="-1500" y="0" z="-1500" />
 		<max x="1500" y="500" z="1500" />
 		<flags>
-		<flag name="exit" value="deny" />
+		<flag name="exit" value="deny" teams="all"/>
 		</flags>
 		</region>
 	</regions>
