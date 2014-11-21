@@ -50,6 +50,8 @@
 	
 	<timedcommands>
 		<command time="0s">rg flag -w $world __global__ pvp deny</command>
+		<command time="0s">time set day</command>
+		<command time="0s">weather clear 1000</command>
 		<command time="1s">say The ten minute grace period has begun. No pvp at this time!</command>
 		<command time="10s">say Strength 2 pots cannot be brewed - Strength 1 can, however.</command>
 		<command time="10s">say Regeneration pots cannot be brewed.</command>
