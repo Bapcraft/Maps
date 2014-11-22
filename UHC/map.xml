@@ -90,5 +90,12 @@
 		<flag name="exit" value="deny" teams="all"/>
 		</flags>
 		</region>
+		<region name="spawntop">
+		<min x="8" y="254" z="8" />
+		<max x="-9" y="254" z="-9" />
+		<flags>
+		<flag name="entry" value="deny" teams="spectators"/>
+		</flags>
+		</region>
 	</regions>
 </map>
