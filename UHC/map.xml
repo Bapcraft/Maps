@@ -22,7 +22,7 @@
 		<module name="removeitems" /> <!-- Don't drop ghast tears -->
 		<module name="gamerules" /> <!-- UHC gamerule -->
 		<module name="autojoin" /> <!-- Join teams automatically -->
-		<module name="regions" />
+		<module name="regions" /> <!-- Blocking players from leaving arena -->
 	</modules>
 	
 	<!-- Define teams. There should be n number of teams for n number of players. Assuming 32-->
