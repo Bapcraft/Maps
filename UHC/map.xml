@@ -23,6 +23,7 @@
 		<module name="gamerules" /> <!-- UHC gamerule -->
 		<module name="autojoin" /> <!-- Join teams automatically -->
 		<module name="regions" /> <!-- Blocking players from leaving arena -->
+		<module name="spectatoritems" /> <!-- Gives spectator items -->
 	</modules>
 	
 	<!-- Define teams. There should be n number of teams for n number of players. Assuming 32-->
