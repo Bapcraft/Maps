@@ -1,0 +1,293 @@
+<map>
+    <name>Christmas</name>
+    <description>A Holiday Themed Skywars Map!</description>
+
+    <authors>
+        <author>BapCraft Build Team</author>
+    </authors>
+
+    <difficulty>EASY</difficulty>
+
+    <friendlyfire>on</friendlyfire>
+
+    <modules>
+        <module name="spawns"/>
+        <module name="teams"/>
+        <module name="lives"/>
+        <module name="chestregen"/>
+        <module name="nojoinmidgame"/>
+        <module name="autojoin"/>
+        <module name="stats"/>
+        <module name="reports"/>
+        <module name="spectatoritems"/>
+        <module name="shop"/>
+    </modules>
+
+    <spawns beds="on">
+        <spawn team="aqua">
+            <loc x="4" y="64" z="63"/>
+        </spawn>
+
+        <spawn team="gold">
+            <loc x="52" y="63" z="48"/>
+        </spawn>
+
+        <spawn team="red">
+            <loc x="71" y="63" z="-2"/>
+        </spawn>
+
+        <spawn team="yellow">
+            <loc x="54" y="63" z="-55"/>
+        </spawn>
+
+        <spawn team="white">
+            <loc x="3" y="63" z="-66"/>
+        </spawn>
+
+        <spawn team="purple">
+            <loc x="-41" y="63" z="-52"/>
+        </spawn>
+
+        <spawn team="blue">
+            <loc x="-66" y="63" z="0"/>
+        </spawn>
+
+        <spawn team="green">
+            <loc x="-46" y="63" z="49"/>
+        </spawn>
+
+        <spectators>
+            <loc x="0" y="111" z="0"/>
+        </spectators>
+    </spawns>
+
+    <teams>
+        <team>
+            <id>aqua</id>
+            <color>AQUA</color>
+            <mode>SURVIVAL</mode>
+            <max>1</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>gold</id>
+            <color>GOLD</color>
+            <mode>SURVIVAL</mode>
+            <max>1</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>red</id>
+            <color>RED</color>
+            <mode>SURVIVAL</mode>
+            <max>1</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>yellow</id>
+            <color>YELLOW</color>
+            <mode>SURVIVAL</mode>
+            <max>1</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>white</id>
+            <color>WHITE</color>
+            <mode>SURVIVAL</mode>
+            <max>1</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>purple</id>
+            <color>DARK_PURPLE</color>
+            <mode>SURVIVAL</mode>
+            <max>1</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>blue</id>
+            <color>BLUE</color>
+            <mode>SURVIVAL</mode>
+            <max>1</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>green</id>
+            <color>GREEN</color>
+            <mode>SURVIVAL</mode>
+            <max>1</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+            </goals>
+        </team>
+    </teams>
+
+    <lives teamlives="false">
+        <life team="aqua">1</life>
+        <life team="gold">1</life>
+        <life team="red">1</life>
+        <life team="yellow">1</life>
+        <life team="white">1</life>
+        <life team="purple">1</life>
+        <life team="blue">1</life>
+        <life team="green">1</life>
+    </lives>
+
+    <chestregen>
+        <tier>
+            <items>
+                <item type="stick" amount="4" chance="45"/>
+                <item type="ice" amount="1" chance="30"/>
+                <item type="fishing rod" amount="1" chance="30"/>
+                <item type="snow ball" amount="4" chance="45"/>
+                <item type="leather chestplate" amount="1" chance="40"/>
+                <item type="leather helmet" amount="1" chance="45"/>
+                <item type="iron helmet" amount="1" chance="40"/>
+                <item type="gold chestplate" amount="1" chance="30"/>
+                <item type="leather leggings" amount="1" chance="40"/>
+                <item type="wood sword" amount="1" chance="40"/>
+                <item type="iron sword" amount="1" chance="25"/>
+                <item type="diamond sword" amount="1" chance="8"/>
+                <item type="golden apple" amount="1" chance="5"/>
+                <item type="iron axe" amount="1" chance="25"/>
+                <item type="golden apple" amount="1" chance="6"/>
+                <item type="ender pearl" amount="1" chance="5"/>
+                <item type="exp bottle" amount="2" chance="12"/>
+                <item type="golden apple" amount="1" chance="5"/>
+                <item type="arrow" amount="2" chance="25"/>
+                <item type="bow" amount="1" chance="10"/>
+                <item type="coal" amount="4" chance="20"/>
+                <item type="egg" amount="4" chance="30"/>
+                <item type="stone" amount="16" chance="75"/>
+                <item type="ender pearl" amount="1" chance="3"/>
+            </items>
+            <chests>
+                <chest x="-2" y="71" z="-2" maxitems="6"/>
+                <chest x="-2" y="71" z="2" maxitems="6"/>
+                <chest x="2" y="71" z="2" maxitems="6"/>
+                <chest x="2" y="63" z="-3" maxitems="6"/>
+                <chest x="-2" y="63" z="-3" maxitems="6"/>
+                <chest x="-1" y="63" z="2" maxitems="6"/>
+                <chest x="-1" y="84" z="1" maxitems="6"/>
+                <chest x="1" y="84" z="-1" maxitems="6"/>
+                <chest x="-1" y="83" z="1" maxitems="6"/>
+                <chest x="69" y="63" z="2" maxitems="6"/>
+                <chest x="49" y="63" z="-54" maxitems="6"/>
+                <chest x="-2" y="63" z="-65" maxitems="6"/>
+                <chest x="-40" y="63" z="-47" maxitems="6"/>
+                <chest x="-65" y="63" z="5" maxitems="6"/>
+                <chest x="-41" y="63" z="47" maxitems="6"/>
+                <chest x="2" y="63" z="58" maxitems="6"/>
+                <chest x="47" y="61" z="51" maxitems="6"/>
+                <chest x="0" y="107" z="-3" maxitems="6"/>
+                <chest x="0" y="107" z="3" maxitems="6"/>
+            </chests>
+        </tier>
+
+        <tier>
+            <items>
+                <item type="stone" amount="32" chance="100"/>
+                <item type="wood" amount="16" chance="100"/>
+                <item type="cobblestone" amount="16" chance="100"/>
+                <item type="lava bucket" amount="1" chance="100"/>
+                <item type="water bucket" amount="1" chance="100"/>
+                <item type="bread" amount="5" chance="100"/>
+                <item type="string" amount="5" chance="100"/>
+                <item type="egg" amount="1" chance="100"/>
+                <item type="snow ball" amount="1" chance="100"/>
+            </items>
+            <chests>
+                <chest x="5" y="63" z="-64"/>
+                <chest x="-39" y="63" z="-54"/>
+                <chest x="-64" y="63" z="-2"/>
+                <chest x="-48" y="63" z="47"/>
+                <chest x="2" y="64" z="62"/>
+                <chest x="50" y="63" z="51"/>
+                <chest x="69" y="63" z="0"/>
+                <chest x="56" y="63" z="-53"/>
+                <chest x="2" y="71" z="-2"/>
+                <chest x="1" y="63" z="2"/>
+            </chests>
+        </tier>
+
+        <tier>
+            <items>
+                <item type="diamond sword" amount="1" chance="40"/>
+                <item type="ender pearl" amount="1" chance="10"/>
+            </items>
+            <chests>
+                <chest x="2" y="64" z="5"/>
+                <chest x="1" y="83" z="-1"/>
+            </chests>
+        </tier>
+
+        <tier>
+            <items>
+                <item type="diamond sword" amount="1" chance="100"/>
+                <item type="ender pearl" amount="1" chance="75"/>
+            </items>
+            <chests>
+                <chest x="0" y="111" z="0"/>
+            </chests>
+        </tier>
+    </chestregen>
+
+    <shop>
+        <items>
+                        <item type="stone" amount="16" price="15" customname="Stone"/>
+			<item type="wood" amount="16" price="20" customname="Wood"/>
+			<item type="bow" amount="1" price="50" customname="Bow"/>
+			<item type="arrow" amount="4" price="25" customname="Arrow"/>
+			<item type="ender pearl" amount="1" price="50" customname="Enderpearl"/>
+			<item type="snow ball" amount="4" price="15" customname="Snow Ball"/>
+			<item type="iron sword" amount="1" price="75" customname="Iron Sword"/>
+			<item type="fishing rod" amount="1" price="50" customname="Fishing Rod"/>
+                        <item type="gold chestplate" amount="1" price="60" customname="Golden Tunic"/>
+                        <item type="snow ball" amount="4" price="20" customname="Snowballs"/>
+        </items>
+    </shop>
+	
+	<stats>
+		<kill>2</kill>
+		<win>5</win>
+		<death>-1</death>
+		<lose>0</lose>
+	</stats>
+</map>
