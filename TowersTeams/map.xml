@@ -7,7 +7,7 @@
 </authors>
 
 <difficulty>EASY</difficulty>
-<friendlyfire>on</friendlyfire>
+<friendlyfire>off</friendlyfire>
 
 <modules>
 <module name="spawns"/>
@@ -59,7 +59,7 @@
 <max>2</max>
 <min>1</min>
 <goals>
-<goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
 </goals>
 </team>
 <team>
@@ -70,7 +70,7 @@
 <max>2</max>
 <min>1</min>
 <goals>
-<goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
 </goals>
 </team>
 <team>
@@ -81,7 +81,7 @@
 <max>2</max>
 <min>1</min>
 <goals>
-<goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
 </goals>
 </team>
 
@@ -92,7 +92,7 @@
 <max>2</max>
 <min>1</min>
 <goals>
-<goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
 </goals>
 </team>
 
@@ -103,7 +103,7 @@
 <max>2</max>
 <min>1</min>
 <goals>
-<goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
 </goals>
 </team>
 
@@ -114,7 +114,7 @@
 <max>2</max>
 <min>1</min>
 <goals>
-<goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
 </goals>
 </team>
 
@@ -125,7 +125,7 @@
 <max>2</max>
 <min>1</min>
 <goals>
-<goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
 </goals>
 </team>
 
@@ -136,7 +136,7 @@
 <max>2</max>
 <min>1</min>
 <goals>
-<goal name="lastplayerleft" showonscoreboard="false" id="Be the last player left" visible="false"/>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
 </goals>
 </team>
 </teams>
