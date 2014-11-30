@@ -214,6 +214,7 @@
                 <chest x="30" y="76" z="-32" maxitems="6"/>
                 <chest x="51" y="79" z="2" maxitems="6"/>
                 <chest x="33" y="79" z="33" maxitems="6"/>
+                <chest x="23" y="17" z="-83" maxitems="6"/>
             </chests>
         </tier>
 
