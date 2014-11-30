@@ -1,6 +1,6 @@
 <map>
-    <name>Christmas</name>
-    <description>A Holiday Themed Skywars Map!</description>
+    <name>Christmas (Teams)</name>
+    <description>A Holiday Themed Skywars Map with Teams!</description>
 
     <authors>
         <author>BapCraft Build Team</author>
@@ -66,7 +66,7 @@
             <id>aqua</id>
             <color>AQUA</color>
             <mode>SURVIVAL</mode>
-            <max>1</max>
+            <max>2</max>
             <min>1</min>
 
             <goals>
@@ -78,7 +78,7 @@
             <id>gold</id>
             <color>GOLD</color>
             <mode>SURVIVAL</mode>
-            <max>1</max>
+            <max>2</max>
             <min>1</min>
 
             <goals>
@@ -90,7 +90,7 @@
             <id>red</id>
             <color>RED</color>
             <mode>SURVIVAL</mode>
-            <max>1</max>
+            <max>2</max>
             <min>1</min>
 
             <goals>
@@ -102,7 +102,7 @@
             <id>yellow</id>
             <color>YELLOW</color>
             <mode>SURVIVAL</mode>
-            <max>1</max>
+            <max>2</max>
             <min>1</min>
 
             <goals>
@@ -114,7 +114,7 @@
             <id>white</id>
             <color>WHITE</color>
             <mode>SURVIVAL</mode>
-            <max>1</max>
+            <max>2</max>
             <min>1</min>
 
             <goals>
@@ -126,7 +126,7 @@
             <id>purple</id>
             <color>DARK_PURPLE</color>
             <mode>SURVIVAL</mode>
-            <max>1</max>
+            <max>2</max>
             <min>1</min>
 
             <goals>
@@ -138,7 +138,7 @@
             <id>blue</id>
             <color>BLUE</color>
             <mode>SURVIVAL</mode>
-            <max>1</max>
+            <max>2</max>
             <min>1</min>
 
             <goals>
@@ -150,7 +150,7 @@
             <id>green</id>
             <color>GREEN</color>
             <mode>SURVIVAL</mode>
-            <max>1</max>
+            <max>2</max>
             <min>1</min>
 
             <goals>
@@ -196,7 +196,8 @@
                 <item type="coal" amount="4" chance="20"/>
                 <item type="egg" amount="4" chance="30"/>
                 <item type="stone" amount="16" chance="75"/>
-                <item type="ender pearl" amount="1" chance="3"/>
+                <item type="ender pearl" amount="1" chance="5"/>
+                <item type="bucket" amount="1" chance="35"/>
             </items>
             <chests>
                 <chest x="-2" y="71" z="-2" maxitems="6"/>
@@ -224,14 +225,14 @@
         <tier>
             <items>
                 <item type="stone" amount="32" chance="100"/>
-                <item type="wood" amount="16" chance="100"/>
+                <item type="wood" amount="32" chance="100"/>
                 <item type="cobblestone" amount="16" chance="100"/>
                 <item type="lava bucket" amount="1" chance="100"/>
                 <item type="water bucket" amount="1" chance="100"/>
-                <item type="bread" amount="5" chance="100"/>
+                <item type="bread" amount="6" chance="100"/>
                 <item type="string" amount="5" chance="100"/>
-                <item type="egg" amount="1" chance="100"/>
-                <item type="snow ball" amount="1" chance="100"/>
+                <item type="egg" amount="2" chance="100"/>
+                <item type="snow ball" amount="2" chance="100"/>
             </items>
             <chests>
                 <chest x="5" y="63" z="-64"/>
@@ -250,7 +251,7 @@
         <tier>
             <items>
                 <item type="diamond sword" amount="1" chance="40"/>
-                <item type="ender pearl" amount="1" chance="10"/>
+                <item type="ender pearl" amount="1" chance="12"/>
             </items>
             <chests>
                 <chest x="2" y="64" z="5"/>
