@@ -175,8 +175,9 @@
 <item type="arrow" amount="2" chance="25"/>
 <item type="bow" amount="1" chance="10"/>
 <item type="coal" amount="4" chance="20"/>
-<item type="egg" amount="4" chance="30"/>
+<item type="egg" amount="4" chance="35"/>
 <item type="stone" amount="16" chance="75"/>
+<item type="bucket" amount="1" chance="45"/>
 </items>
 <chests>
 <chest x="-3" y="68" z="0" maxitems="6"/>
@@ -211,14 +212,14 @@
 <tier>
 <items>
 <item type="stone" amount="32" chance="100"/>
-<item type="wood" amount="16" chance="100"/>
+<item type="wood" amount="32" chance="100"/>
 <item type="cobblestone" amount="16" chance="100"/>
 <item type="lava bucket" amount="1" chance="100"/>
 <item type="water bucket" amount="1" chance="100"/>
-<item type="bread" amount="5" chance="100"/>
+<item type="bread" amount="6" chance="100"/>
 <item type="string" amount="5" chance="100"/>
-<item type="egg" amount="1" chance="100"/>
-<item type="snow ball" amount="1" chance="100"/>
+<item type="egg" amount="2" chance="100"/>
+<item type="snow ball" amount="2" chance="100"/>
 </items>
 <chests>
 <chest x="-72" y="72" z="0"/>
@@ -253,6 +254,7 @@
 <item type="snow ball" amount="4" price="15" customname="Snow Ball"/>
 <item type="iron sword" amount="1" price="75" customname="Iron Sword"/>
 <item type="fishing rod" amount="1" price="50" customname="Fishing Rod"/>
+<item type="bread" amount="2" price="15" customname="Bread"/>
 </items>
 </shop>
 <stats>
