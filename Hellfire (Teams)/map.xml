@@ -1,0 +1,276 @@
+<map>
+    <name>Hellfire</name>
+    <description>A Nether Themed Skywars Map!</description>
+
+    <authors>
+        <author>BapCraft Build Team</author>
+    </authors>
+
+    <difficulty>EASY</difficulty>
+
+    <friendlyfire>on</friendlyfire>
+
+    <modules>
+        <module name="spawns"/>
+        <module name="teams"/>
+        <module name="lives"/>
+        <module name="chestregen"/>
+        <module name="nojoinmidgame"/>
+        <module name="autojoin"/>
+        <module name="spectatoritems"/>
+        <module name="shop"/>
+		<module name="stats"/>
+    </modules>
+
+    <spawns beds="on">
+        <spawn team="aqua">
+            <loc x="-0" y="72" z="-55"/>
+        </spawn>
+
+        <spawn team="gold">
+            <loc x="30" y="72" z="-30"/>
+        </spawn>
+
+        <spawn team="red">
+            <loc x="53" y="72" z="-1"/>
+        </spawn>
+
+        <spawn team="yellow">
+            <loc x="31" y="72" z="30"/>
+        </spawn>
+
+        <spawn team="white">
+            <loc x="3" y="72" z="55"/>
+        </spawn>
+
+        <spawn team="purple">
+            <loc x="-28" y="72" z="32"/>
+        </spawn>
+
+        <spawn team="blue">
+            <loc x="-55" y="72" z="4"/>
+        </spawn>
+
+        <spawn team="green">
+            <loc x="-32" y="72" z="-27"/>
+        </spawn>
+
+        <spectators>
+            <loc x="3" y="115" z="19"/>
+        </spectators>
+    </spawns>
+
+    <teams>
+        <team>
+            <id>aqua</id>
+            <color>AQUA</color>
+            <mode>SURVIVAL</mode>
+            <max>2</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>gold</id>
+            <color>GOLD</color>
+            <mode>SURVIVAL</mode>
+            <max>2</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>red</id>
+            <color>RED</color>
+            <mode>SURVIVAL</mode>
+            <max>2</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>yellow</id>
+            <color>YELLOW</color>
+            <mode>SURVIVAL</mode>
+            <max>2</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>white</id>
+            <color>WHITE</color>
+            <mode>SURVIVAL</mode>
+            <max>2</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>purple</id>
+            <color>DARK_PURPLE</color>
+            <mode>SURVIVAL</mode>
+            <max>2</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>blue</id>
+            <color>BLUE</color>
+            <mode>SURVIVAL</mode>
+            <max>2</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>green</id>
+            <color>GREEN</color>
+            <mode>SURVIVAL</mode>
+            <max>2</max>
+            <min>1</min>
+
+            <goals>
+                <goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+            </goals>
+        </team>
+    </teams>
+
+    <lives teamlives="false">
+        <life team="aqua">1</life>
+        <life team="gold">1</life>
+        <life team="red">1</life>
+        <life team="yellow">1</life>
+        <life team="white">1</life>
+        <life team="purple">1</life>
+        <life team="blue">1</life>
+        <life team="green">1</life>
+    </lives>
+
+    <chestregen>
+        <tier>
+            <items>
+                <item type="stick" amount="4" chance="45"/>
+                <item type="ice" amount="1" chance="35"/>
+                <item type="fishing rod" amount="1" chance="30"/>
+                <item type="snow ball" amount="4" chance="45"/>
+                <item type="leather chestplate" amount="1" chance="42"/>
+                <item type="leather helmet" amount="1" chance="47"/>
+                <item type="iron helmet" amount="1" chance="40"/>
+                <item type="gold chestplate" amount="1" chance="30"/>
+                <item type="leather leggings" amount="1" chance="40"/>
+                <item type="wood sword" amount="1" chance="40"/>
+                <item type="iron sword" amount="1" chance="25"/>
+                <item type="diamond sword" amount="1" chance="8"/>
+                <item type="golden apple" amount="1" chance="5"/>
+                <item type="iron axe" amount="1" chance="25"/>
+                <item type="golden apple" amount="1" chance="6"/>
+                <item type="ender pearl" amount="1" chance="5"/>
+                <item type="exp bottle" amount="2" chance="12"/>
+                <item type="golden apple" amount="1" chance="10"/>
+                <item type="arrow" amount="2" chance="30"/>
+                <item type="bow" amount="1" chance="15"/>
+                <item type="coal" amount="4" chance="25"/>
+                <item type="egg" amount="4" chance="35"/>
+                <item type="stone" amount="32" chance="75"/>
+				<item type="bucket" amount="1" chance="45"/>
+            </items>
+            <chests>
+                <chest x="-7" y="76" z="-8" maxitems="6"/>
+                <chest x="-2" y="80" z="-8" maxitems="6"/>
+                <chest x="4" y="82" z="-5" maxitems="6"/>
+                <chest x="10" y="75" z="1" maxitems="6"/>
+                <chest x="4" y="82" z="4" maxitems="6"/>
+                <chest x="5" y="78" z="7" maxitems="6"/>
+                <chest x="-7" y="73" z="11" maxitems="6"/>
+                <chest x="-8" y="79" z="4" maxitems="6"/>
+                <chest x="-7" y="83" z="-1" maxitems="6"/>
+                <chest x="1" y="79" z="53" maxitems="6"/>
+                <chest x="-34" y="79" z="34" maxitems="6"/>
+                <chest x="-53" y="79" z="-2" maxitems="6"/>
+                <chest x="-35" y="79" z="-33" maxitems="6"/>
+                <chest x="1" y="78" z="-56" maxitems="6"/>
+                <chest x="30" y="76" z="-32" maxitems="6"/>
+                <chest x="51" y="79" z="2" maxitems="6"/>
+                <chest x="33" y="79" z="33" maxitems="6"/>
+            </chests>
+        </tier>
+
+        <tier>
+            <items>
+                <item type="stone" amount="32" chance="100"/>
+                <item type="wood" amount="32" chance="100"/>
+                <item type="cobblestone" amount="32" chance="100"/>
+                <item type="lava bucket" amount="1" chance="100"/>
+                <item type="water bucket" amount="1" chance="100"/>
+                <item type="bread" amount="6" chance="100"/>
+                <item type="string" amount="5" chance="100"/>
+                <item type="egg" amount="2" chance="100"/>
+                <item type="snow ball" amount="2" chance="100"/>
+            </items>
+            <chests>
+                <chest x="-30" y="72" z="-27"/>
+                <chest x="2" y="72" z="-57"/>
+                <chest x="28" y="72" z="-29"/>
+                <chest x="58" y="72" z="-5"/>
+                <chest x="28" y="72" z="25"/>
+                <chest x="4" y="72" z="59"/>
+                <chest x="-35" y="72" z="26"/>
+                <chest x="-60" y="72" z="5"/>
+            </chests>
+        </tier>
+
+        <tier>
+            <items>
+                <item type="diamond sword" amount="1" chance="50"/>
+                <item type="ender pearl" amount="2" chance="50"/>
+            </items>
+            <chests>
+                <chest x="-1" y="71" z="0"/>
+            </chests>
+        </tier>
+    </chestregen>
+	
+	<shop>
+        <items>
+            <item type="stone" amount="16" price="15" customname="Stone"/>
+			<item type="wood" amount="16" price="20" customname="Wood"/>
+			<item type="bow" amount="1" price="50" customname="Bow"/>
+			<item type="arrow" amount="4" price="30" customname="Arrow"/>
+			<item type="ender pearl" amount="1" price="50" customname="Enderpearl"/>
+			<item type="snow ball" amount="4" price="15" customname="Snow Ball"/>
+			<item type="iron sword" amount="1" price="75" customname="Iron Sword"/>
+			<item type="fishing rod" amount="1" price="50" customname="Fishing Rod"/>
+			<item type="bread" amount="2" price="15" customname="Bread"/>
+        </items>
+    </shop>
+	
+	<stats>
+		<kill>2</kill>
+		<death>-1</death>
+		<win>5</win>
+		<lose>0</lose>
+	</stats>
+</map>
