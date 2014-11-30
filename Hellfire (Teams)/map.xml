@@ -8,7 +8,7 @@
 
     <difficulty>EASY</difficulty>
 
-    <friendlyfire>on</friendlyfire>
+    <friendlyfire>off</friendlyfire>
 
     <modules>
         <module name="spawns"/>
@@ -16,10 +16,9 @@
         <module name="lives"/>
         <module name="chestregen"/>
         <module name="nojoinmidgame"/>
-        <module name="autojoin"/>
         <module name="spectatoritems"/>
         <module name="shop"/>
-		<module name="stats"/>
+	<module name="stats"/>
     </modules>
 
     <spawns beds="on">
