@@ -19,6 +19,7 @@
 <module name="reports"/>
 <module name="spectatoritems"/>
 <module name="shop"/>
+<module name="gamerules"/>
 </modules>
 
 <spawns beds="on">
@@ -221,5 +222,9 @@
 <death>-1</death>
 <lose>0</lose>
 </stats>
+
+<gamerules>
+  <gamerule key="doMobSpawning" value="false"/>
+</gamerules>
 
 </map>
