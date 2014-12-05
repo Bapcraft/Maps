@@ -79,7 +79,7 @@
 
 <team>
 <id>purple</id>
-<color>PURPLE</color>
+<color>DARK_PURPLE</color>
 <mode>SURVIVAL</mode>
 <max>4</max>
 <min>2</min>
