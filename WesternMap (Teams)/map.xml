@@ -1,0 +1,225 @@
+<map>
+<name>Wild West(Teams)</name>
+<description>Western Themed Skywars Map</description>
+
+<authors>
+<author>BapCraft Build Team</author>
+</authors>
+
+<difficulty>EASY</difficulty>
+<friendlyfire>on</friendlyfire>
+
+<modules>
+<module name="spawns"/>
+<module name="teams"/>
+<module name="lives"/>
+<module name="chestregen"/>
+<module name="nojoinmidgame"/>
+<module name="stats"/>
+<module name="reports"/>
+<module name="spectatoritems"/>
+<module name="shop"/>
+</modules>
+
+<spawns beds="on">
+<spawn team="aqua">
+<loc x="63" y="72" z="-53"/>
+</spawn>
+
+<spawn team="gold">
+<loc x="-55" y="72" z="-59"/>
+</spawn>
+
+<spawn team="red">
+<loc x="-63" y="72" z="60"/>
+</spawn>
+
+<spawn team="purple">
+<loc x="67" y="74" z="62"/>
+</spawn>
+
+<spectators>
+<loc x="0" y="71" z="0"/>
+</spectators>
+</spawns>
+
+<teams>
+<team>
+<id>aqua</id>
+<color>AQUA</color>
+<mode>SURVIVAL</mode>
+<max>4</max>
+<min>2</min>
+<goals>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+</goals>
+</team>
+
+<team>
+<id>gold</id>
+<color>GOLD</color>
+<mode>SURVIVAL</mode>
+<max>4</max>
+<min>2</min>
+<goals>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+</goals>
+</team>
+
+<team>
+<id>red</id>
+<color>RED</color>
+<mode>SURVIVAL</mode>
+<max>4</max>
+<min>2</min>
+<goals>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+</goals>
+</team>
+
+<team>
+<id>purple</id>
+<color>PURPLE</color>
+<mode>SURVIVAL</mode>
+<max>4</max>
+<min>2</min>
+<goals>
+<goal name="lastteamleft" showonscoreboard="false" id="Be the last team left" visible="false"/>
+</goals>
+</team>
+</teams>
+
+<lives teamlives="false">
+<life team="aqua">1</life>
+<life team="gold">1</life>
+<life team="red">1</life>
+<life team="purple">1</life>
+</lives>
+
+<chestregen>
+<tier>
+<items>
+<item type="stick" amount="4" chance="45"/>
+<item type="ice" amount="1" chance="30"/>
+<item type="fishing rod" amount="1" chance="30"/>
+<item type="snow ball" amount="4" chance="45"/>
+<item type="leather chestplate" amount="1" chance="40"/>
+<item type="leather helmet" amount="1" chance="45"/>
+<item type="iron helmet" amount="1" chance="40"/>
+<item type="gold chestplate" amount="1" chance="30"/>
+<item type="leather leggings" amount="1" chance="40"/>
+<item type="wood sword" amount="1" chance="40"/>
+<item type="iron sword" amount="1" chance="25"/>
+<item type="diamond sword" amount="1" chance="8"/>
+<item type="golden apple" amount="1" chance="5"/>
+<item type="iron axe" amount="1" chance="25"/>
+<item type="golden apple" amount="1" chance="6"/>
+<item type="ender pearl" amount="1" chance="5"/>
+<item type="exp bottle" amount="2" chance="12"/>
+<item type="golden apple" amount="1" chance="8"/>
+<item type="arrow" amount="2" chance="30"/>
+<item type="bow" amount="1" chance="15"/>
+<item type="coal" amount="4" chance="20"/>
+<item type="egg" amount="4" chance="30"/>
+<item type="stone" amount="16" chance="75"/>
+</items>
+
+<chests>
+<chest x="65" y="68" z="-67" maxitems="6"/>
+<chest x="68" y="69" z="-63" maxitems="6"/>
+<chest x="68" y="69" z="-58" maxitems="6"/>
+<chest x="65" y="67" z="-55" maxitems="6"/>
+<chest x="66" y="68" z="58" maxitems="6"/>
+<chest x="66" y="68" z="66" maxitems="6"/>
+<chest x="75" y="73" z="56" maxitems="6"/>
+<chest x="71" y="68" z="58" maxitems="6"/>
+<chest x="-56" y="72" z="66" maxitems="6"/>
+<chest x="-64" y="68" z="64" maxitems="6"/>
+<chest x="-59" y="68" z="52" maxitems="6"/>
+<chest x="-57" y="68" z="53" maxitems="6"/>
+<chest x="-69" y="68" z="-59" maxitems="6"/>
+<chest x="-60" y="67" z="-65" maxitems="6"/>
+<chest x="-60" y="67" z="-53" maxitems="6"/>
+<chest x="-66" y="67" z="-74" maxitems="6"/>
+<chest x="-3" y="73" z="-100" maxitems="6"/>
+<chest x="100" y="73" z="-3" maxitems="6"/>
+<chest x="3" y="73" z="100" maxitems="6"/>
+<chest x="-100" y="73" z="3" maxitems="6"/>
+</chests>
+</tier>
+
+<tier>
+<items>
+<item type="stone" amount="32" chance="100"/>
+<item type="wood" amount="16" chance="100"/>
+<item type="cobblestone" amount="16" chance="100"/>
+<item type="lava bucket" amount="1" chance="100"/>
+<item type="water bucket" amount="1" chance="100"/>
+<item type="bread" amount="5" chance="100"/>
+<item type="string" amount="5" chance="100"/>
+<item type="egg" amount="1" chance="100"/>
+<item type="snow ball" amount="1" chance="100"/>
+</items>
+
+<chests>
+<chest x="66" y="72" z="-54"/>
+<chest x="66" y="72" z="-52"/>
+<chest x="63" y="73" z="66"/>
+<chest x="63" y="73" z="58"/>
+<chest x="-64" y="72" z="52"/>
+<chest x="-59" y="72" z="67"/>
+<chest x="-52" y="72" z="-59"/>
+<chest x="-68" y="72" z="-59"/>
+</chests>
+</tier>
+
+<tier>
+<items>
+<item type="diamond sword" amount="1" chance="30"/>
+<item type="ender pearl" amount="1" chance="15"/>
+<item type="golden apple" amount="1" chance="40"/>
+<item type="stone" amount="16" chance="75"/>
+<item type="bow" amount="1" chance="30"/>
+<item type="arrow" amount="4" chance="35"/>
+<item type="egg" amount="4" chance="15"/>
+<item type="exp bottle" amount="6" chance="30"/>
+<item type="wood" amount="16" chance="75"/>
+<item type="snow ball" amount="4" chance="40"/>
+<item type="iron chestplate" amount="1" chance="35"/>
+<item type="leather boots" amount="1" chance="50"/>
+</items>
+
+<chests>
+<chest x="75" y="66" z="-61"/>
+<chest x="61" y="66" z="74"/>
+<chest x="-73" y="66" z="56"/>
+<chest x="-72" y="66" z="-53"/>
+<chest x="0" y="65" z="5"/>
+<chest x="-5" y="65" z="0"/>
+<chest x="0" y="65" z="-5"/>
+<chest x="5" y="65" z="0"/>
+</chests>
+</tier>
+</chestregen>
+
+<shop>
+<items>
+<item type="stone" amount="16" price="15" customname="Stone"/>
+<item type="wood" amount="16" price="20" customname="Wood"/>
+<item type="bow" amount="1" price="40" customname="Bow"/>
+<item type="arrow" amount="4" price="25" customname="Arrow"/>
+<item type="ender pearl" amount="1" price="50" customname="Enderpearl"/>
+<item type="snow ball" amount="4" price="15" customname="Snow Ball"/>
+<item type="iron sword" amount="1" price="75" customname="Iron Sword"/>
+<item type="fishing rod" amount="1" price="50" customname="Fishing Rod"/>
+</items>
+</shop>
+
+<stats>
+<kill>2</kill>
+<win>5</win>
+<death>-1</death>
+<lose>0</lose>
+</stats>
+
+</map>
