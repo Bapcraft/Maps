@@ -156,7 +156,7 @@
 <item type="cobblestone" amount="16" chance="100"/>
 <item type="lava bucket" amount="1" chance="100"/>
 <item type="water bucket" amount="1" chance="100"/>
-<item type="bread" amount="5" chance="100"/>
+<item type="bread" amount="8" chance="100"/>
 <item type="string" amount="5" chance="100"/>
 <item type="egg" amount="1" chance="100"/>
 <item type="snow ball" amount="1" chance="100"/>
@@ -188,6 +188,9 @@
 <item type="snow ball" amount="4" chance="40"/>
 <item type="iron chestplate" amount="1" chance="35"/>
 <item type="leather boots" amount="1" chance="50"/>
+<item type="bread" amount="2" chance="45"/>
+<item type="apple" amount="2" chance="45"/>
+<item type="cookie" amount="4" chance="45"/>
 </items>
 
 <chests>
