@@ -171,12 +171,12 @@
     <chestregen>
         <tier>
             <items>
-                <item type="stick" amount="4" chance="45"/>
-                <item type="ice" amount="1" chance="35"/>
+                item type="stick" amount="4" chance="45"/>
+                <item type="ice" amount="1" chance="30"/>
                 <item type="fishing rod" amount="1" chance="30"/>
                 <item type="snow ball" amount="4" chance="45"/>
-                <item type="leather chestplate" amount="1" chance="42"/>
-                <item type="leather helmet" amount="1" chance="47"/>
+                <item type="leather chestplate" amount="1" chance="40"/>
+                <item type="leather helmet" amount="1" chance="45"/>
                 <item type="iron helmet" amount="1" chance="40"/>
                 <item type="gold chestplate" amount="1" chance="30"/>
                 <item type="leather leggings" amount="1" chance="40"/>
@@ -188,13 +188,12 @@
                 <item type="golden apple" amount="1" chance="6"/>
                 <item type="ender pearl" amount="1" chance="5"/>
                 <item type="exp bottle" amount="2" chance="12"/>
-                <item type="golden apple" amount="1" chance="10"/>
-                <item type="arrow" amount="2" chance="30"/>
-                <item type="bow" amount="1" chance="15"/>
-                <item type="coal" amount="4" chance="25"/>
-                <item type="egg" amount="4" chance="35"/>
-                <item type="stone" amount="32" chance="75"/>
-				<item type="bucket" amount="1" chance="45"/>
+                <item type="golden apple" amount="1" chance="5"/>
+                <item type="arrow" amount="2" chance="25"/>
+                <item type="bow" amount="1" chance="10"/>
+                <item type="coal" amount="4" chance="20"/>
+                <item type="egg" amount="4" chance="30"/>
+                <item type="stone" amount="16" chance="75"/>
             </items>
             <chests>
                 <chest x="-7" y="76" z="-8" maxitems="6"/>
@@ -221,14 +220,14 @@
         <tier>
             <items>
                 <item type="stone" amount="32" chance="100"/>
-                <item type="wood" amount="32" chance="100"/>
-                <item type="cobblestone" amount="32" chance="100"/>
+                <item type="wood" amount="16" chance="100"/>
+                <item type="cobblestone" amount="16" chance="100"/>
                 <item type="lava bucket" amount="1" chance="100"/>
                 <item type="water bucket" amount="1" chance="100"/>
-                <item type="bread" amount="6" chance="100"/>
+                <item type="bread" amount="5" chance="100"/>
                 <item type="string" amount="5" chance="100"/>
-                <item type="egg" amount="2" chance="100"/>
-                <item type="snow ball" amount="2" chance="100"/>
+                <item type="egg" amount="1" chance="100"/>
+                <item type="snow ball" amount="1" chance="100"/>
             </items>
             <chests>
                 <chest x="-30" y="72" z="-27"/>
