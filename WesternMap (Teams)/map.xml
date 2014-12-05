@@ -7,7 +7,7 @@
 </authors>
 
 <difficulty>EASY</difficulty>
-<friendlyfire>on</friendlyfire>
+<friendlyfire>off</friendlyfire>
 
 <modules>
 <module name="spawns"/>
