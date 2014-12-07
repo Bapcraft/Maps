@@ -198,6 +198,7 @@
                 <item type="stone" amount="16" chance="75"/>
                 <item type="ender pearl" amount="1" chance="5"/>
                 <item type="bucket" amount="1" chance="35"/>
+				<item type="bread" amount="3" chance="50"/>
             </items>
             <chests>
                 <chest x="-2" y="71" z="-2" maxitems="6"/>
@@ -219,6 +220,14 @@
                 <chest x="47" y="61" z="51" maxitems="6"/>
                 <chest x="0" y="107" z="-3" maxitems="6"/>
                 <chest x="0" y="107" z="3" maxitems="6"/>
+				<chest x="51" y="59" z="49" maxitems="6"/>
+				<chest x="1" y="60" z="65" maxitems="6"/>
+				<chest x="-48" y="59" z="50" maxitems="6"/>
+				<chest x="-70" y="59" z="1" maxitems="6"/>
+				<chest x="-45" y="59" z="-50" maxitems="6"/>
+				<chest x="-1" y="59" z="-66" maxitems="6"/>
+				<chest x="50" y="59" z="-55" maxitems="6"/>
+				<chest x="68" y="60" z="-3" maxitems="6"/>
             </chests>
         </tier>
 
@@ -282,6 +291,7 @@
 			<item type="fishing rod" amount="1" price="50" customname="Fishing Rod"/>
                         <item type="gold chestplate" amount="1" price="60" customname="Golden Tunic"/>
                         <item type="snow ball" amount="4" price="20" customname="Snowballs"/>
+						<item type="bread" amount="4" price="20" customname="Bread"/>
         </items>
     </shop>
 	
