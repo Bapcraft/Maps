@@ -20,6 +20,7 @@
         <module name="spectatoritems"/>
         <module name="shop"/>
 		<module name="stats"/>
+		<module name="votetostart"/>
     </modules>
 
     <spawns beds="on">
