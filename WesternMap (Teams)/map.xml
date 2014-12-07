@@ -21,6 +21,7 @@
 <module name="shop"/>
 <module name="gamerules"/>
 <module name="teamchat"/>
+<module name="votetostart"/>
 </modules>
 
 <spawns beds="on">
