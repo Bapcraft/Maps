@@ -20,6 +20,7 @@
         <module name="autojoin"/>
         <module name="shop"/>
 		<module name="stats"/>
+		<module name="votetostart"/>
     </modules>
 
     <spawns beds="on">
