@@ -21,6 +21,7 @@
         <module name="reports"/>
         <module name="spectatoritems"/>
         <module name="shop"/>
+        <module name="votetostart"/>
     </modules>
 
     <spawns beds="on">
