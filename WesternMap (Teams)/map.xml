@@ -20,6 +20,7 @@
 <module name="spectatoritems"/>
 <module name="shop"/>
 <module name="gamerules"/>
+<module name="teamchat"/>
 </modules>
 
 <spawns beds="on">

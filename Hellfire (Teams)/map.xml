@@ -18,7 +18,8 @@
         <module name="nojoinmidgame"/>
         <module name="spectatoritems"/>
         <module name="shop"/>
-	<module name="stats"/>
+		<module name="stats"/>
+		<module name="teamchat"/>
     </modules>
 
     <spawns beds="on">
