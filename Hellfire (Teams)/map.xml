@@ -20,6 +20,7 @@
         <module name="shop"/>
 		<module name="stats"/>
 		<module name="teamchat"/>
+		<module name="votetostart"/>
     </modules>
 
     <spawns beds="on">
