@@ -21,6 +21,7 @@
         <module name="spectatoritems"/>
         <module name="shop"/>
 		<module name="teamchat"/>
+		<module name="votetostart"/>
     </modules>
 
     <spawns beds="on">
