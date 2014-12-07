@@ -172,7 +172,7 @@
     <chestregen>
         <tier>
             <items>
-                item type="stick" amount="4" chance="45"/>
+                <item type="stick" amount="4" chance="45"/>
                 <item type="ice" amount="1" chance="30"/>
                 <item type="fishing rod" amount="1" chance="30"/>
                 <item type="snow ball" amount="4" chance="45"/>
@@ -215,6 +215,14 @@
                 <chest x="51" y="79" z="2" maxitems="6"/>
                 <chest x="33" y="79" z="33" maxitems="6"/>
                 <chest x="23" y="17" z="-83" maxitems="6"/>
+				<chest x="53" y="72" z="7" maxitems="6"/>
+				<chest x="37" y="72" z="34" maxitems="6"/>
+				<chest x="-4" y="72" z="48" maxitems="6"/>
+				<chest x="-26" y="72" z="35" maxitems="6"/>
+				<chest x="-49" y="72" z="-3" maxitems="6"/>
+				<chest x="-39" y="72" z="-34" maxitems="6"/>
+				<chest x="0" y="72" z="-47" maxitems="6"/>
+				<chest x="35" y="72" z="-37" maxitems="6"/>
             </chests>
         </tier>
 
@@ -263,7 +271,7 @@
 			<item type="snow ball" amount="4" price="15" customname="Snow Ball"/>
 			<item type="iron sword" amount="1" price="75" customname="Iron Sword"/>
 			<item type="fishing rod" amount="1" price="50" customname="Fishing Rod"/>
-			<item type="bread" amount="2" price="15" customname="Bread"/>
+			<item type="bread" amount="4" price="20" customname="Bread"/>
         </items>
     </shop>
 	
