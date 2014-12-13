@@ -270,7 +270,7 @@
       <time>720</time>
     </timelimit>
 	
-	<tips delay="60" period="310">
+	<tips delay="120" period="310">
 		<messages>
 			<message>Taking too long to start? Use /vote2start</message>
 			<message>Purchase items at /shop with BapCoins!</message>

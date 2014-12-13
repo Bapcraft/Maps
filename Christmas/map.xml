@@ -309,7 +309,7 @@
       <time>1500</time>
     </timelimit>
 	
-	<tips delay="60" period="500">
+	<tips delay="120" period="500">
 		<messages>
 			<message>Use the nether star to chose your team!</message>
 			<message>Taking too long to start? Use /vote2start</message>
