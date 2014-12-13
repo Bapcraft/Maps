@@ -31,6 +31,7 @@
 	<module name="teamchat"/>
 	<module name="stats"/>
         <module name="guns" />
+        <module name="shop" />
     </modules>
 
     <mobspawning>
