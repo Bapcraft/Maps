@@ -23,6 +23,7 @@
 <module name="teamchat"/>
 <module name="votetostart"/>
 <module name="timelimit"/>
+<module name="tips"/>
 </modules>
 
 <spawns beds="on">
@@ -236,5 +237,16 @@
 <timelimit updatetitle="true">
       <time>1500</time>
     </timelimit>
-
+	
+<tips delay="60" period="500">
+		<messages>
+			<message>Use the nether star to chose your team!</message>
+			<message>Taking too long to start? Use /vote2start</message>
+			<message>Purchase items at /shop with BapCoins!</message>
+			<message>Don't kill your team mates. Help each other!</message>
+			<message>Get to the middle first for great loot!</message>
+			<message>Be sure to watch your surroundings when making a bridge!</message>
+			<message>This game lasts for 25 minutes!</message>
+		</messages>
+</tips>
 </map>
