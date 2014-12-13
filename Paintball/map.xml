@@ -1,0 +1,182 @@
+<map>
+    <name>Paintball</name>
+
+    <description>Testing Paintball!</description>
+
+    <authors>
+        <author>zoads</author>
+    </authors>
+
+    <difficulty>NORMAL</difficulty>
+
+    <friendlyfire>off</friendlyfire>
+
+    <modules>
+        <module name="spawns"/>
+        <module name="teams"/>
+        <module name="autorespawn"/>
+        <module name="gamerules"/>
+        <module name="kits"/>
+        <module name="timelimit"/>
+        <module name="building"/>
+        <module name="removeitems"/>
+        <module name="timelimit"/>
+        <module name="building"/>
+        <module name="autojoin"/>
+        <module name="disabledamage"/>
+        <module name="reports"/>
+        <module name="nohunger"/>
+        <module name="spectatoritems"/>
+        <module name="mobspawning"/>
+	<module name="teamchat"/>
+	<module name="stats"/>
+        <module name="guns" />
+    </modules>
+
+    <mobspawning>
+        <disabled>
+            <CREEPER/>
+            <SKELETON/>
+            <ZOMBIE/>
+            <ENDERMAN/>
+            <PIG/>
+            <SLIME/>
+        </disabled>
+        <enabled></enabled>
+    </mobspawning>
+
+    <disabledamage>
+        <type>FALL</type>
+    </disabledamage>
+
+    <building>
+        <break>
+            <enabled>
+            </enabled>
+            <disabled>
+                <all/>
+            </disabled>
+        </break>
+
+        <place>
+            <enabled>
+            </enabled>
+            <disabled>
+                <all/>
+            </disabled>
+        </place>
+    </building>
+
+    <timelimit updatetitle="true">
+        <time>600</time>
+    </timelimit>
+
+    <spawns beds="off">
+        <spawn team="blue">
+            <loc x="0.5" y="21" z="75"/>
+        </spawn>
+
+        <spawn team="red">
+            <loc x="0.5" y="21" z="-47"/>
+        </spawn>
+
+        <spectators>
+            <loc x="0.5" y="47" z="13.5"/>
+        </spectators>
+    </spawns>
+
+    <teams>
+        <team>
+            <id>red</id>
+            <color>RED</color>
+            <mode>ADVENTURE</mode>
+            <max>12</max>
+            <min>4</min>
+
+            <goals>
+                <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
+                <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false"
+                      depends="time"/>
+            </goals>
+        </team>
+
+        <team>
+            <id>blue</id>
+            <color>BLUE</color>
+            <mode>ADVENTURE</mode>
+            <max>12</max>
+            <min>4</min>
+
+            <goals>
+                <goal name="timerunout" id="time" permanent="false" showonscoreboard="false" visible="false"/>
+                <goal name="killmostpeople" id="Kill the most people" permanent="false" showonscoreboard="false"
+                      depends="time"/>
+            </goals>
+        </team>
+
+    </teams>
+
+    <autorespawn time="1"/>
+
+    <gamerules>
+        <gamerule key="doDaylightCycle" value="false"/>
+        <gamerule key="doMobSpawning" value="false"/>
+        <gamerule key="doTileDrops" value="false"/>
+    </gamerules>
+
+    <kits>
+        <default>
+            <health>20</health>
+            <maxhealth>20</maxhealth>
+        </default>
+
+        <kit team="red" id="Paintball">
+            <item type="diamond barding" name="Gun" />
+            <item type="snow ball" amount="64" name="Ammo" />
+
+            <armor>
+                <chestplate type="leather chestplate" color="ff0000"/>
+            </armor>
+        </kit>
+
+       <kit team="blue" id="Paintball">
+            <item type="diamond barding" name="Gun" />
+            <item type="snow ball" amount="64" name="Ammo" />
+            <armor>
+                <chestplate type="leather chestplate" color="334cb2"/>
+            </armor>
+        </kit>
+    </kits>
+
+    <removeitems>
+        <all/>
+    </removeitems>
+	
+	<stats>
+          <kill>1</kill>
+          <death>0</death>
+	  <win>10</win>
+          <lose>0</lose>
+	</stats>
+
+  <guns>
+<gun>
+<bullet>snow ball</bullet>
+<id>Gun</id>
+<reloadTime>1</reloadTime>
+<ammo>snow ball</ammo>
+<ammoName>Ammo</ammoName>
+<particle>heart</particle>
+<baseDamage>100</baseDamage>
+<critDamage>100</critDamage>
+<critChance>100</critChance>
+</gun>
+</guns>
+
+<shop>
+ <items>
+  <item type="snow ball" amount="16" price="10" customname="Ammo" />
+ </items>
+</shop>
+
+</map>
