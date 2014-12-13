@@ -22,6 +22,7 @@
 <module name="gamerules"/>
 <module name="teamchat"/>
 <module name="votetostart"/>
+<module name="timelimit"/>
 </modules>
 
 <spawns beds="on">
@@ -231,5 +232,9 @@
 <gamerules>
   <gamerule key="doMobSpawning" value="false"/>
 </gamerules>
+
+<timelimit updatetitle="true">
+      <time>1500</time>
+    </timelimit>
 
 </map>

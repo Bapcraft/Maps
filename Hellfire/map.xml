@@ -21,6 +21,7 @@
         <module name="shop"/>
 		<module name="stats"/>
 		<module name="votetostart"/>
+		<module name="timelimit"/>
     </modules>
 
     <spawns beds="on">
@@ -273,4 +274,8 @@
 		<win>5</win>
 		<lose>0</lose>
 	</stats>
+	
+	<timelimit updatetitle="true">
+      <time>720</time>
+    </timelimit>
 </map>

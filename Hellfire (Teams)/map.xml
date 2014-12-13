@@ -21,6 +21,7 @@
 		<module name="stats"/>
 		<module name="teamchat"/>
 		<module name="votetostart"/>
+		<module name="timelimit"/>
     </modules>
 
     <spawns beds="on">
@@ -282,4 +283,8 @@
 		<win>5</win>
 		<lose>0</lose>
 	</stats>
+	
+	<timelimit updatetitle="true">
+      <time>1500</time>
+    </timelimit>
 </map>

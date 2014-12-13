@@ -22,6 +22,7 @@
         <module name="spectatoritems"/>
         <module name="shop"/>
         <module name="votetostart"/>
+		<module name="timelimit"/>
     </modules>
 
     <spawns beds="on">
@@ -285,4 +286,8 @@
 		<death>-1</death>
 		<lose>0</lose>
 	</stats>
+	
+	<timelimit updatetitle="true">
+      <time>720</time>
+    </timelimit>
 </map>

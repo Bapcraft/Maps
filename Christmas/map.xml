@@ -22,6 +22,7 @@
         <module name="shop"/>
 		<module name="teamchat"/>
 		<module name="votetostart"/>
+		<module name="timelimit"/>
     </modules>
 
     <spawns beds="on">
@@ -302,4 +303,8 @@
 		<death>-1</death>
 		<lose>0</lose>
 	</stats>
+	
+	<timelimit updatetitle="true">
+      <time>1500</time>
+    </timelimit>
 </map>
