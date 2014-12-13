@@ -23,6 +23,7 @@
         <module name="shop"/>
         <module name="votetostart"/>
 		<module name="timelimit"/>
+		<module name="tips"/>
     </modules>
 
     <spawns beds="on">
@@ -290,4 +291,10 @@
 	<timelimit updatetitle="true">
       <time>720</time>
     </timelimit>
+	
+	<tips delay="0" period="200">
+		<messages>
+			<message>Test Tip!</message>
+		</messages>
+	</tips>
 </map>
