@@ -24,6 +24,7 @@
         <module name="votetostart"/>
 		<module name="timelimit"/>
 		<module name="tips"/>
+		<module name="scoreboards"/>
     </modules>
 
     <spawns beds="on">
@@ -291,5 +292,14 @@
 	<timelimit updatetitle="true">
       <time>900</time>
     </timelimit>
+	
+	<scoreboards>
+		<scoreboard team="spectators" title="Towers">
+			<lines>
+				<line>%time</line>
+				<line>mc.bapcraft.com</line>
+			</lines>
+		</scoreboard>
+	</scoreboards>
 	
 </map>
