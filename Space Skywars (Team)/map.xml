@@ -131,29 +131,29 @@
 <item type="stone" amount="16" chance="75"/>
 </items>
 
-<chests>
-<chest x="-9" y="103" z="-93" maxitems="6"/>
-<chest x="-0" y="103" z="-102" maxitems="6"/>
-<chest x="8" y="103" z="-93" maxitems="6"/>
-<chest x="-0" y="103" z="-84" maxitems="6"/>
-<chest x="-1" y="104" z="95" maxitems="6"/>
-<chest x="105" y="108" z="-0" maxitems="6"/>
-<chest x="98" y="108" z="2" maxitems="6"/>
-<chest x="87" y="108" z="-0" maxitems="6"/>
-<chest x="96" y="108" z="-9" maxitems="6"/>
-<chest x="99" y="109" z="-0" maxitems="6"/>
-<chest x="0" y="101" z="104" maxitems="6"/>
-<chest x="-8" y="101" z="95" maxitems="6"/>
-<chest x="0" y="101" z="56" maxitems="6"/>
-<chest x="9" y="101" z="95" maxitems="6"/>
-<chest x="0" y="102" z="98" maxitems="6"/>
-<chest x="-93" y="96" z="8" maxitems="6"/>
-<chest x="-102" y="96" z="-0" maxitems="6"/>
-<chest x="-93" y="96" z="-9" maxitems="6"/>
-<chest x="84" y="96" z="-0" maxitems="6"/>
-<chest x="-96" y="97" z="-0" maxitems="6"/>
-</chests>
-</tier>
+<chests> 
+<chest x="1" y="103" z="-85" maxitems="6"/> 
+<chest x="-1" y="103" z="-94" maxitems="6"/> 
+<chest x="-1" y="103" z="-103" maxitems="6"/> 
+<chest x="8" y="103" z="-94" maxitems="6"/> 
+<chest x="-2" y="104" z="-96" maxitems="6"/> 
+<chest x="96" y="108" z="-10" maxitems="6"/> 
+<chest x="105" y="108" z="-1" maxitems="6"/> 
+<chest x="96" y="108" z="8" maxitems="6"/> 
+<chest x="87" y="108" z="-1" maxitems="6"/> 
+<chest x="99" y="109" z="-1" maxitems="6"/> 
+<chest x="0" y="101" z="86" maxitems="6"/> 
+<chest x="9" y="101" z="95" maxitems="6"/> 
+<chest x="0" y="101" z="104" maxitems="6"/> 
+<chest x="-9" y="101" z="95" maxitems="6"/> 
+<chest x="0" y="102" z="98" maxitems="6"/> 
+<chest x="-85" y="96" z="-1" maxitems="6"/> 
+<chest x="-94" y="96" z="8" maxitems="6"/> 
+<chest x="-103" y="96" z="-1" maxitems="6"/> 
+<chest x="-94" y="96" z="-10" maxitems="6"/> 
+<chest x="-97" y="97" z="-1" maxitems="6"/> 
+</chests> 
+</tier> 
 
 <tier>
 <items>
@@ -168,17 +168,17 @@
 <item type="snow ball" amount="1" chance="100"/>
 </items>
 
-<chests> 
-<chest x="2" y="103" z="-95"/>
-<chest x="1" y="99" z="-90"/>
-<chest x="-3" y="104" z="1"/>
-<chest x="96" y="108" z="8"/>
-<chest x="-2" y="101" z="97"/>
-<chest x="-1" y="97" z="92"/>
-<chest x="-95" y="96" z="-3"/>
-<chest x="-90" y="92" z="-2"/>
-</chests>
-</tier>
+<chests>  
+<chest x="2" y="103" z="-96"/> 
+<chest x="1" y="99" z="-91"/> 
+<chest x="98" y="108" z="2"/> 
+<chest x="93" y="104" z="1"/> 
+<chest x="-3" y="101" z="97"/> 
+<chest x="-2" y="97" z="92"/> 
+<chest x="-96" y="96" z="-4"/> 
+<chest x="-91" y="92" z="-3"/> 
+</chests> 
+</tier> 
 
 <tier>
 <items>
@@ -199,18 +199,18 @@
 <item type="cookie" amount="4" chance="45"/>
 </items>
 
-<chests> 
-<chest x="70" y="122" z="-64"/>
-<chest x="74" y="113" z="67"/>
-<chest x="-63" y="68" z="64"/>
-<chest x="-74" y="114" z="-69"/>
-<chest x="9" y="95" z="8"/>
-<chest x="-8" y="95" z="8"/>
-<chest x="-8" y="95" z="-9"/>
-<chest x="9" y="95" z="-9"/>
-</chests>
-</tier>
-</chestregen>
+<chests>  
+<chest x="-75" y="114" z="-70"/> 
+<chest x="70" y="122" z="-65"/> 
+<chest x="74" y="113" z="67"/> 
+<chest x="-64" y="68" z="64"/> 
+<chest x="9" y="95" z="8"/> 
+<chest x="-9" y="95" z="8"/> 
+<chest x="-9" y="95" z="-10"/> 
+<chest x="9" y="95" z="-10"/> 
+</chests> 
+</tier> 
+</chestregen> 
 
 <shop>
 <items>
