@@ -34,15 +34,15 @@
 </spawn>
 
 <spawn team="gold">
-<loc x="94" y="113" z="0"/>
+<loc x="-95" y="101" z="-1"/>
 </spawn>
 
 <spawn team="red">
-<loc x="0" y="108" z="-93"/>
+<loc x="0" y="108" z="-94"/>
 </spawn>
 
 <spawn team="purple">
-<loc x="94" y="101" z="0"/>
+<loc x="97" y="112" z="-1"/>
 </spawn>
 
 <spectators>
@@ -128,7 +128,7 @@
 <item type="bow" amount="1" chance="15"/>
 <item type="coal" amount="4" chance="20"/>
 <item type="egg" amount="4" chance="30"/>
-<item type="stone" amount="16" chance="75"/>
+<item type="stone" amount="32" chance="75"/>
 </items>
 
 <chests> 
@@ -157,9 +157,9 @@
 
 <tier>
 <items>
-<item type="stone" amount="16" chance="100"/>
+<item type="stone" amount="48" chance="100"/>
 <item type="wood" amount="32" chance="100"/>
-<item type="cobblestone" amount="16" chance="100"/>
+<item type="cobblestone" amount="32" chance="100"/>
 <item type="lava bucket" amount="1" chance="100"/>
 <item type="water bucket" amount="1" chance="100"/>
 <item type="bread" amount="8" chance="100"/>
@@ -185,12 +185,12 @@
 <item type="diamond sword" amount="1" chance="30"/>
 <item type="ender pearl" amount="1" chance="15"/>
 <item type="golden apple" amount="1" chance="40"/>
-<item type="stone" amount="16" chance="75"/>
+<item type="stone" amount="32" chance="75"/>
 <item type="bow" amount="1" chance="30"/>
 <item type="arrow" amount="4" chance="35"/>
 <item type="egg" amount="4" chance="15"/>
 <item type="exp bottle" amount="6" chance="30"/>
-<item type="wood" amount="16" chance="75"/>
+<item type="wood" amount="32" chance="75"/>
 <item type="snow ball" amount="4" chance="40"/>
 <item type="iron chestplate" amount="1" chance="35"/>
 <item type="leather boots" amount="1" chance="50"/>
