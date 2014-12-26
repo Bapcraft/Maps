@@ -1,0 +1,111 @@
+<map>
+  <name>Direct Fire V. 1.2</name>
+  <description>Race for the Wool!</description>
+
+  <authors>
+    <author>Vechs</author>
+  </authors>
+
+  <difficulty>NORMAL</difficulty>
+
+  <friendlyfire>on</friendlyfire>
+
+  <modules>
+    <module name="spawns" />
+    <module name="teams" />
+    <module name="regions" />
+  </modules>
+
+  <spawns beds="on">
+    <spawn team="right">
+      <loc x="322" y="72" z="-58" />
+    </spawn>
+
+    <spawn team="left">
+      <loc x="322" y="72" z="-23" />
+    </spawn>
+
+    <spectators>
+      <loc x="343" y="72" z="-40" />
+    </spectators>
+  </spawns>
+
+  <teams>
+    <team>
+      <id>left</id>
+      <color>RED</color>
+      <mode>SURVIVAL</mode>
+      <max>5</max>
+      <min>3</min>
+
+      <goals>
+        <goal name="placeblockatlocation" id="Green Wool" type="wool" data="13" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="292" y="68" z="-18" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Blue Wool" type="wool" data="11" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="291" y="68" z="-18" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Red Wool" type="wool" data="14" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="290" y="68" z="-18" />
+        </goal>
+
+
+      </goals>
+    </team>
+    <team>
+      <id>right</id>
+      <color>BLUE</color>
+      <mode>SURVIVAL</mode>
+      <max>5</max>
+      <min>3</min>
+
+      <goals>
+        <goal name="placeblockatlocation" id="Green Wool" type="wool" data="13" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="292" y="68" z="-63" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Blue Wool" type="wool" data="11" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="291" y="68" z="-63" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Red Wool" type="wool" data="14" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="290" y="68" z="-63" />
+        </goal>
+      </goals>
+    </team>
+  </teams>
+
+  <regions>
+    <region name="right">
+      <min x="-256" y="0" z="-64" />
+      <max x="319" y="127" z="-49" />
+
+      <flags>
+        <flag name="entry" value="deny" teams="left" />
+        <flag name="entry" value="allow" teams="right" />
+      </flags>
+    </region>
+
+    <region name="left">
+      <min x="-256" y="0" z="-32" />
+      <max x="319" y="127" z="-17"  />
+
+      <flags>
+        <flag name="entry" value="deny" teams="right" />
+        <flag name="entry" value="allow" teams="left" />
+      </flags>
+    </region>
+
+    <region name="middle">
+      <min x="-256" y="0" z="-33" />
+      <max x="319" y="127" z="-48" />
+
+      <flags>
+        <flag name="build" value="deny" teams="right" />
+        <flag name="build" value="deny" teams="left" />
+      </flags>
+    </region>
+  </regions>
+</map>
