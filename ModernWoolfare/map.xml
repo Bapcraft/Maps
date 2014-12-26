@@ -1,0 +1,115 @@
+<map>
+  <name>Modern Woolfare</name>
+  <description>A traditional Race for the Wool map</description>
+
+  <authors>
+    <author>Vechs</author>
+  </authors>
+
+  <difficulty>NORMAL</difficulty>
+
+  <friendlyfire>on</friendlyfire>
+
+  <modules>
+    <module name="spawns" />
+    <module name="teams" />
+    <module name="regions" />
+    <module name="spectatoritems" />
+    <module name="reports" />
+  </modules>
+
+  <spawns beds="on">
+    <spawn team="right">
+      <loc x="-28.52576" y="64" z="-114.52917" />
+    </spawn>
+
+    <spawn team="left">
+      <loc x="-29.28635" y="64" z="-83.39405" />
+    </spawn>
+
+    <spectators>
+      <loc x="2.5351" y="84" z="-98.475" />
+    </spectators>
+  </spawns>
+
+  <teams>
+    <team>
+      <id>left</id>
+      <color>RED</color>
+      <mode>SURVIVAL</mode>
+      <max>5</max>
+      <min>3</min>
+
+      <goals>
+        <goal name="placeblockatlocation" id="Blue Wool" type="wool" data="11" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-147" y="81" z="-86" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Red Wool" type="wool" data="14" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-145" y="81" z="-90" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Green Wool" type="wool" data="13" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-143" y="81" z="-86" />
+        </goal>
+
+
+      </goals>
+    </team>
+    <team>
+      <id>right</id>
+      <color>BLUE</color>
+      <mode>SURVIVAL</mode>
+      <max>5</max>
+      <min>3</min>
+
+      <goals>
+        <goal name="placeblockatlocation" id="Red Wool" type="wool" data="14" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-145" y="81" z="-108" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Green Wool" type="wool" data="13" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-143" y="81" z="-112" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Blue Wool" type="wool" data="11" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-147" y="81" z="-112" />
+        </goal>
+      </goals>
+    </team>
+  </teams>
+
+  <regions>
+    <region name="right">
+      <min x="-28" y="116" z="-123" />
+      <max x="-287" y="-99999" z="-106" />
+
+      <flags>
+        <flag name="entry" value="allow" teams="right" />
+        <flag name="entry" value="deny" teams="left" />
+        <flag name="build" value="deny" teams="left" />
+      </flags>
+    </region>
+
+    <region name="left">
+      <min x="-28" y="116" z="-75s" />
+      <max x="-287" y="-99999" z="-92"  />
+
+      <flags>
+        <flag name="entry" value="allow" teams="left" />
+        <flag name="entry" value="deny" teams="right" />
+        <flag name="build" value="deny" teams="right" />
+      </flags>
+    </region>
+
+    <region name="middle">
+      <min x="-290" y="0" z="-93" />
+      <max x="-30" y="92" z="-105"  />
+
+      <flags>
+        <flag name="build" value="deny" teams="right" />
+        <flag name="build" value="deny" teams="left" />
+      </flags>
+    </region>
+  </regions>
+</map>
