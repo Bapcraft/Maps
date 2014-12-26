@@ -1,0 +1,113 @@
+<map>
+  <name>Divided Together</name>
+  <description>Race for the Wool!</description>
+
+  <authors>
+    <author>Thungon</author>
+  </authors>
+
+  <difficulty>NORMAL</difficulty>
+
+  <friendlyfire>on</friendlyfire>
+
+  <modules>
+    <module name="spawns" />
+    <module name="teams" />
+    <module name="regions" />
+  </modules>
+
+  <spawns beds="on">
+    <spawn team="gold">
+      <loc x="-406" y="77" z="139" />
+    </spawn>
+
+    <spawn team="diamond">
+      <loc x="-374" y="77" z="139" />
+    </spawn>
+
+    <spectators>
+      <loc x="-391" y="77" z="128" />
+    </spectators>
+  </spawns>
+
+  <teams>
+    <team>
+      <id>gold</id>
+      <color>GOLD</color>
+      <mode>SURVIVAL</mode>
+      <max>5</max>
+      <min>3</min>
+
+      <goals>
+        <goal name="placeblockatlocation" id="Green Wool" type="wool" data="13" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-402" y="69" z="153" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Cyan Wool" type="wool" data="9" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-402" y="69" z="154" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Red Wool" type="wool" data="14" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-402" y="69" z="155" />
+        </goal>
+
+
+      </goals>
+    </team>
+    <team>
+      <id>diamond</id>
+      <color>AQUA</color>
+      <mode>SURVIVAL</mode>
+      <max>5</max>
+      <min>3</min>
+
+      <goals>
+        <goal name="placeblockatlocation" id="Green Wool" type="wool" data="13" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-379" y="69" z="153" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Blue Wool" type="wool" data="9" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-379" y="69" z="154" />
+        </goal>
+
+        <goal name="placeblockatlocation" id="Red Wool" type="wool" data="14" showonscoreboard="true" permanent="true" visible="true">
+          <loc x="-379" y="69" z="155" />
+        </goal>
+      </goals>
+    </team>
+  </teams>
+
+  <regions>
+    <region name="gold">
+      <min x="-414" y="1" z="143" />
+      <max x="-399" y="129" z="336" />
+
+      <flags>
+        <flag name="entry" value="deny" teams="diamond" />
+        <flag name="entry" value="allow" teams="gold" />
+        <flag name="build" value="deny" teams="gold" />
+      </flags>
+    </region>
+
+    <region name="diamond">
+      <min x="-382" y="1" z="143" />
+      <max x="-367" y="128" z="336"  />/>
+
+      <flags>
+        <flag name="entry" value="deny" teams="gold" />
+        <flag name="entry" value="allow" teams="diamond" />
+        <flag name="build" value="deny" teams="diamond" />
+      </flags>
+    </region>
+
+    <region name="middle">
+      <min x="-383" y="67" z="101" />
+      <max x="-398" y="101" z="145" />
+
+      <flags>
+        <flag name="build" value="deny" teams="diamond" />
+        <flag name="build" value="deny" teams="gold" />
+      </flags>
+    </region>
+  </regions>
+</map>
