@@ -14,6 +14,8 @@
     <module name="spawns" />
     <module name="teams" />
     <module name="regions" />
+    <module name="reports" />
+    <module name="sepctatoritems" />
   </modules>
 
   <spawns beds="on">
