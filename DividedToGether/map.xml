@@ -16,7 +16,6 @@
     <module name="regions" />
     <module name="spectatoritems" />
     <module name="reports" />
-    <module name="building" />
   </modules>
 
   <spawns beds="on">
@@ -113,15 +112,4 @@
       </flags>
     </region>
   </regions>
-  
-    <building>
-    <break>
-         <block type="wool" />
-         <block type="glass" />
-         <block type="glowstone" />
-    </break>
-    <place>
-         <block type="wool" />
-    </place>
-  </building>
 </map>
